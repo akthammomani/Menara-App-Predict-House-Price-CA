@@ -3,10 +3,10 @@
 Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
 
 (1)	Main Dataset: Source www.redfin.com:
-	Obtained sold houses from Dec 2019-Dec 2020.
-	The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
-	Data has 8,790 Observations and 27 Variables.
-	Data Wrangling is needed: Dataset has NANs, Wrong values, insignificant columns and Duplicates.
+    Obtained sold houses from Dec 2019-Dec 2020.
+    The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
+    Data has 8,790 Observations and 27 Variables.
+	  Data Wrangling is needed: Dataset has NANs, Wrong values, insignificant columns and Duplicates.
 
 ****** Adding more Datasets to enhance our prediction ******
 
