@@ -1,6 +1,6 @@
 # Predicting House Prices in CA Bay Area
 
-![](C:\Users\aktha\Desktop\Future\GOALLLLL\SF_painted_ladies.jpg)
+![](images/SF_painted_ladies.jpg)
 ### Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
 
 1. Main Dataset: Source www.redfin.com:
