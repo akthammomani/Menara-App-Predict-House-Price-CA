@@ -1,6 +1,6 @@
 # Predicting-House-Prices
 
-Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
+## Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
 
 1. Main Dataset: Source www.redfin.com:
     * Obtained sold houses from Dec 2019-Dec 2020.
