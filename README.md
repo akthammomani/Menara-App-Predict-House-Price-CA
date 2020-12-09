@@ -8,7 +8,7 @@
     * Data has 8,790 Observations and 27 Variables.
     * Data Wrangling is needed: Dataset has NANs, Wrong values, insignificant columns and Duplicates.
 
-****** Adding more Datasets to enhance our prediction ******
+                       ### ****** Adding more Datasets to enhance our prediction ******
 
 2. Adding Median Income per Zip code from:
 Source: http://www.usa.com/rank/california-state--median-household-income--zip-code-rank.html and since the data from 2010-2014, and according to https://www.statista.com/statistics --> the median Income in California has grown by 6.36% we’ll use this % to adjust this Dataset YoY.
