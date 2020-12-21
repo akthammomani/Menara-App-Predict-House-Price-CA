@@ -1,5 +1,5 @@
 
-![](images/GreatSchools.PNG)
+![](images/GreatSchools.jpg)
 
 
 
@@ -26,4 +26,4 @@ Good schools desire by 78 % of buyers makes ***GreatSchools*** the partner of ch
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below: 
    
-   ![](images/API_REST.PNG)
+   ![](images/API_REST.jpg)
