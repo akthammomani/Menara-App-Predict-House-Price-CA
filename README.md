@@ -31,9 +31,9 @@
 7. Adding Universities and colleges list in CA per city:
     * Source: http://www.free-4u.com/Colleges/California-Colleges.html
     
-7. We have 6 Datasets to support this project, so Data Warngling will be needed:
+7. We have 7 Datasets to support this project, so Data Warngling will be needed:
     * Clean NANs, duplicate values, wrong values and removing insignificant columns.
-    * Because we have 7 Datasets, merging and concatenation will be needed.
+    * Merging and concatenation will be needed.
     * GreatSchools API (Rest): will need to use Python Packages: requests, xml.etree.ElementTree and glob
          - requests: To get the data from GreatSchools API
          - xml.etree.ElementTree module : to implement a simple and efficient API for parsing and creating XML data.
