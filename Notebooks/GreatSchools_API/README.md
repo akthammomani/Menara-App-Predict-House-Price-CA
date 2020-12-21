@@ -25,3 +25,7 @@ Good schools desire by 78 % of buyers makes ***GreatSchools*** the partner of ch
    
    ![API_REST](https://user-images.githubusercontent.com/67468718/102781300-50605c80-434c-11eb-8665-ba977e8b3be0.jpg)
    
+## After evaluating the variation in GreatSchool Rating among all schools in the selected 47 cities in North California, 
+
+![gsRating](https://user-images.githubusercontent.com/67468718/102782406-25770800-434e-11eb-9bfa-c6987d7581cc.jpg)
+   
