@@ -1,6 +1,8 @@
 
 ![](images/GreatSchools.PNG)
 
+
+
 # Home Buyers Forego Garages for School Districts
    * 78 % of buyers in their preferred school district gave up home features to get there
    * Most common compromises include a garage, large backyard, and updated kitchen
@@ -23,3 +25,5 @@ Good schools desire by 78 % of buyers makes ***GreatSchools*** the partner of ch
    * After reaching out to ***GreatSchools.Org***, Thankfully they helped me to set up a ***FREE API trial key*** for the period of this poject.
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below: 
+   
+   ![](images/API_REST.PNG)
