@@ -1,7 +1,7 @@
 
 ![](images/GreatSchools.jpg)
 
-
+![](https://github.com/akthammomani/Predicting-House-Prices-CA-Bay-Area/images/GreatSchools.jpg?raw=true)
 
 # Home Buyers Forego Garages for School Districts
    * 78 % of buyers in their preferred school district gave up home features to get there
