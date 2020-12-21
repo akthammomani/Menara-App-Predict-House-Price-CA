@@ -1,7 +1,4 @@
-
-![](images/GreatSchools.jpg)
-
-![](https://github.com/akthammomani/Predicting-House-Prices-CA-Bay-Area/images/GreatSchools.jpg?raw=true)
+![GreatSchools](https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg)
 
 # Home Buyers Forego Garages for School Districts
    * 78 % of buyers in their preferred school district gave up home features to get there
@@ -25,5 +22,5 @@ Good schools desire by 78 % of buyers makes ***GreatSchools*** the partner of ch
    * After reaching out to ***GreatSchools.Org***, Thankfully they helped me to set up a ***FREE API trial key*** for the period of this poject.
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below: 
+   ![API_REST](https://user-images.githubusercontent.com/67468718/102781300-50605c80-434c-11eb-8665-ba977e8b3be0.jpg)
    
-   ![](images/API_REST.jpg)
