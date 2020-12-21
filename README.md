@@ -7,8 +7,6 @@
     * Obtained sold houses from Dec 2019-Dec 2020.
     * The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
     * Data has 8,790 Observations and 27 Variables.
-    * Data Wrangling is needed:
-        * Dataset has NANs, Wrong values, insignificant columns and Duplicates.
 
          ### ****** Adding more Datasets to enhance our prediction ******
 
@@ -25,7 +23,16 @@
 5. Adding Shoping and Mall centers in CA per city:
     * Source: https://en.wikipedia.org/wiki/List_of_shopping_malls_in_California
     
-5. Adding Universities and colleges list in CA per city:
+6. Adding Universities and colleges list in CA per city:
     * Source: http://www.free-4u.com/Colleges/California-Colleges.html
+    
+7. We have 6 Datasets to support this project, so Data Warngling will be needed:
+    * Clean NANs, duplicate values, wrong values and removing insignificant columns.
+    * Because we have 6 Datasets, merging and concatenation will be needed.
+    * GreatSchools API (Rest): will need to use Python Packages: requests, xml.etree.ElementTree and glob
+         - requests: To get the data from GreatSchools API
+         - xml.etree.ElementTree module : to implement a simple and efficient API for parsing and creating XML data.
+         - glob: to concatenate all the API output in one final DataFrame
+    
 
 
