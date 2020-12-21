@@ -19,7 +19,7 @@ Good schools desire by 78 % of buyers makes ***GreatSchools*** the partner of ch
 ***“Many families come to GreatSchools for the first time because they are preparing to move to a new neighborhood or community,” said Bill Jackson, Founder and CEO of GreatSchools. “Parents are looking for a neighborhood with great school options for their kids, and partnering with Zillow helps GreatSchools bring families more and better info about the whole neighborhood, including nearby homes.”***
 
 
-# For Predicting House Prices Capstone Project, We'll be using The GreatSchools API to return all the schools information in the 49 selected cities in North California:
+## For Predicting House Prices Capstone Project, We'll be using The GreatSchools API to return all the schools information in the 49 selected cities in North California:
    * After reaching out to ***GreatSchools.Org***, Thankfully they helped me to set up a ***FREE API trial key*** for the period of this poject.
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below: 
