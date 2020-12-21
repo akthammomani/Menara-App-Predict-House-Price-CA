@@ -16,9 +16,8 @@
       https://www.statista.com/statistics --> the median Income in California has grown by 6.36% we’ll use this % to adjust this Dataset YoY.
       
 3. Adding Hotness score (0-100) to refelect the demand and supply per zip code:
-    * Source: https://hifld-geoplatform.opendata.arcgis.com/datasets/87376bdb0cb3490cbda39935626f6604_0      
+    * Source: https://www.realtor.com/research/data/
       
-
 4. Adding Public School per zip code:
     * Source: https://hifld-geoplatform.opendata.arcgis.com/datasets/87376bdb0cb3490cbda39935626f6604_0
     
