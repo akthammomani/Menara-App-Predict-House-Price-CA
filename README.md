@@ -17,6 +17,14 @@
 
 3. Adding Public School per zip code:
     * Source: https://hifld-geoplatform.opendata.arcgis.com/datasets/87376bdb0cb3490cbda39935626f6604_0
+    
+4. Adding GreatSchools Rating to reflect Schools rating in all the selected 47 cities in North California:
+    * Source: GreatSchools.org API https://www.greatschools.org/api/request-api-key
 
-4. Adding Hotness score (0-100) to reflect demand and supply per zip code:
-    * Source: https://www.realtor.com/research/data/
+5. Adding Shoping and Mall centers in CA per city:
+    * Source: https://en.wikipedia.org/wiki/List_of_shopping_malls_in_California
+    
+5. Adding Universities and colleges list in CA per city:
+    * Source: http://www.free-4u.com/Colleges/California-Colleges.html
+
+
