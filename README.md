@@ -7,7 +7,8 @@
     * Obtained sold houses from Dec 2019-Dec 2020.
     * The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
     * Data has 8,790 Observations and 27 Variables.
-    * Data Wrangling is needed: Dataset has NANs, Wrong values, insignificant columns and Duplicates.
+    * Data Wrangling is needed:
+         * Dataset has NANs, Wrong values, insignificant columns and Duplicates.
 
          ### ****** Adding more Datasets to enhance our prediction ******
 
