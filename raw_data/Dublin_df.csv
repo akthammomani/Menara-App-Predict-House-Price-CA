@@ -1,0 +1,27 @@
+gsId,name,type,gradeRange,enrollment,gsRating,parentRating,city,state,districtId,district,districtNCESId,address,phone,fax,website,ncesId,lat,lon
+,John Green Elementary School,public,K-5,859,10,5,Dublin,CA,6,Dublin Unified School District,0600019,"3300 Antone Way, 
+Dublin, CA  94568",(925) 833-4200,(925) 829-1076,www.dublinusd.org,060001912078,37.7181,-121.8615
+,Dublin Elementary School,public,K-5,878,7,4,Dublin,CA,6,Dublin Unified School District,0600019,"7997 Vomac Road, 
+Dublin, CA  94568",(925) 833-1204,(925) 833-3362,www.dublinusd.org,060001906929,37.715023,-121.9365
+,Dublin High School,public,9-12,2978,9,4,Dublin,CA,6,Dublin Unified School District,0600019,"8151 Village Parkway, 
+Dublin, CA  94568",(925) 833-3300,(925) 833-3322,www.dublinusd.org,060001909273,37.720997,-121.92639
+,Frederiksen Elementary School,public,K-5,800,6,4,Dublin,CA,6,Dublin Unified School District,0600019,"7243 Tamarack Drive, 
+Dublin, CA  94568",(925) 828-1037,(925) 829-2562,www.dublinusd.org,060001909275,37.715076,-121.92195
+,Murray Elementary School,public,K-5,615,7,4,Dublin,CA,6,Dublin Unified School District,0600019,"8435 Davona Drive, 
+Dublin, CA  94568",(925) 828-2568,(925) 803-1367,www.dublinusd.org,060001909276,37.72154,-121.93298
+,Wells Middle School,public,6-8,996,6,4,Dublin,CA,6,Dublin Unified School District,0600019,"6800 Penn Drive, 
+Dublin, CA  94568",(925) 828-6227,(925) 829-8851,https://www.dublin.k12.ca.us/Domain/407,060001909278,37.712563,-121.9188
+,James Dougherty Elementary School,public,K-5,890,9,4,Dublin,CA,6,Dublin Unified School District,0600019,"5301 Hibernia Drive, 
+Dublin, CA  94568",(925) 803-4444,(925) 556-3488,www.dublinusd.org,060001908443,37.71039,-121.88512
+,Eleanor Murray Fallon School,public,6-8,1557,9,4,Dublin,CA,6,Dublin Unified School District,0600019,"3601 Kohnen Way, 
+Dublin, CA  94568",(925) 875-9376,(925) 829-7260,www.dublinusd.org,060001913169,37.71566,-121.86589
+,Harold William Kolb,public,K-5,735,9,4,Dublin,CA,6,Dublin Unified School District,0600019,"3150 Palermo Way, 
+Dublin, CA  94568",(925) 833-4720,(925) 833-4279,www.dublinusd.org,060001912927,37.71193,-121.8587
+,Valley High (Continuation) School,public,9-12,60,2,3,Dublin,CA,6,Dublin Unified School District,0600019,"6901 York Drive, 
+Dublin, CA  94568",(925) 829-4322,(925) 479-0342,www.dublinusd.org,060001909274,37.709167,-121.92118
+,Dublin Adult Education,public,n/a,,,,Dublin,CA,6,Dublin Unified School District,0600019,"6901 York Drive, 
+Dublin, CA  94568",(925) 829-4322,(925) 833-7609,www.dublinusd.org,060001913650,37.70954,-121.92146
+,J. M. Amador Elementary,public,K-5,839,9,,Dublin,CA,6,Dublin Unified School District,0600019,"2100 East Cantara Drive, 
+Dublin, CA  94568",(925) 307-1950,,www.dublinusd.org,060001913862,37.717297,-121.84565
+,Cottonwood Creek,public,K-8,813,,,Dublin,CA,6,Dublin Unified School District,0600019,"2400 Central Parkway, 
+Dublin, CA  94568",(925) 833-3333,,www.dublin.k12.ca.us/,060001914370,37.710003,-121.84732
