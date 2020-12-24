@@ -1,4 +1,4 @@
-# Predicting House Prices in CA Bay Area
+# Predicting House Prices in California - Bay Area
 
 ![](images/SF_painted_ladies.jpg)
 
