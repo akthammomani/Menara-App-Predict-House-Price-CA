@@ -1,15 +1,15 @@
-# Predicting House Prices in California - Bay Area
+# 🌟Predicting House Prices in California - Bay Area
 
 ![](images/SF_painted_ladies.jpg)
 
-## Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
+## 🌟Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
 
 1. Main Dataset: Source www.redfin.com:
     * Obtained sold houses from Dec 2019-Dec 2020.
     * The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
     * Data has 8,790 Observations and 27 Variables.
 
-         ### ****** Adding more Datasets to enhance our prediction ******
+         ### 🌟🌟🌟🌟 Adding more Datasets to enhance our prediction 🌟🌟🌟🌟
 
 2. Adding Median Income per Zip code from:
     * Source: http://www.usa.com/rank/california-state--median-household-income--zip-code-rank.htm and since the data from 2010-2014, and according to              
