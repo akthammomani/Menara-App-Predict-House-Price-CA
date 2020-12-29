@@ -30,7 +30,7 @@
 7. Adding Universities and colleges list in CA per city:
     * Source: http://www.free-4u.com/Colleges/California-Colleges.html
     
-8. Adding BART stations with parking (Y/N) per zio code in North California:
+8. Adding BART (Bay Area Rapid Transit) stations with parking (Y/N) per zip code in North California:
     * Source: https://www.bart.gov/stations
     
 9. We have 8 Datasets to support this project, so Data cleaning & Warngling will be needed:
