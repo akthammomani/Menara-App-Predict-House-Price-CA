@@ -11,7 +11,7 @@
 
          ### 🌟🌟🌟🌟 Adding more Datasets to enhance our prediction 🌟🌟🌟🌟
 
-2. Adding Median Income per Zip code from:
+2. Adding Median Income per Zip code:
     * Source: http://www.usa.com/rank/california-state--median-household-income--zip-code-rank.htm and since the data from 2010-2014, and according to              
       https://www.statista.com/statistics --> the median Income in California has grown by 6.36% we’ll use this % to adjust this Dataset YoY.
       
