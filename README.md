@@ -30,13 +30,16 @@
 7. Adding Universities and colleges list in CA per city:
     * Source: http://www.free-4u.com/Colleges/California-Colleges.html
     
-7. We have 7 Datasets to support this project, so Data Warngling will be needed:
+8. Adding BART stations with parking (Y/N) per zio code in North California:
+    * Source: https://www.bart.gov/stations
+    
+9. We have 8 Datasets to support this project, so Data cleaning & Warngling will be needed:
     * Clean NANs, duplicate values, wrong values and removing insignificant columns.
     * Merging and concatenation will be needed.
     * The GreatSchools API is a REST-based web service: will need to use Python Packages: requests, xml.etree.ElementTree and glob:
-         - requests: To get the data from GreatSchools API
+         - requests: To request the data from GreatSchools API
          - xml.etree.ElementTree module : to implement a simple and efficient API for parsing and creating XML data.
-         - glob: to concatenate all the API output in one final DataFrame
+         - glob: to concatenate all the API output in one final DataFrame.
     
 
 
