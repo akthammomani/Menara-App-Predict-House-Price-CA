@@ -33,7 +33,7 @@
 8. Adding BART (Bay Area Rapid Transit) stations with parking (Y/N) per zip code in North California:
     * Source: https://www.bart.gov/stations
     
-9. We have 8 Datasets to support this project, so Data cleaning & Warngling will be needed:
+9. We have 8 Datasets to support this project, so Data cleaning & Wrangling will be needed:
     * Clean NANs, duplicate values, wrong values and removing insignificant columns.
     * Merging and concatenation will be needed.
     * The GreatSchools API is a REST-based web service: will need to use Python Packages: requests, xml.etree.ElementTree and glob:
