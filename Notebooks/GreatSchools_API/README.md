@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="550" height="500" src="https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg">
+  <img width="700" height="500" src="https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg">
 </p>
 
 # ✰ Home Buyers Forego Garages for School Districts
@@ -26,12 +26,12 @@ The desire for particular schools varied significantly by life stage and age. 91
    * For this project, we'll use the API to return all ***public*** School information per city as shown below:    
   
 <p align="center">
-  <img width="550" height="500" src="https://user-images.githubusercontent.com/67468718/102781300-50605c80-434c-11eb-8665-ba977e8b3be0.jpg">
+  <img width="700" height="500" src="https://user-images.githubusercontent.com/67468718/102781300-50605c80-434c-11eb-8665-ba977e8b3be0.jpg">
 </p>
    
 ## ✰ After evaluating the variation in GreatSchool Rating among all schools in the selected 47 cities in North California : below box plots show that the GreatSchool Rating is distributed very well among the selected cities in North California:
 
 <p align="center">
-  <img width="550" height="500" src="https://user-images.githubusercontent.com/67468718/102782406-25770800-434e-11eb-9bfa-c6987d7581cc.jpg">
+  <img width="800" height="400" src="https://user-images.githubusercontent.com/67468718/102782406-25770800-434e-11eb-9bfa-c6987d7581cc.jpg">
 </p>
    
