@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="700" height="500" src="https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg">
+  <img width="900" height="700" src="https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg">
 </p>
 
 # ✰ Home Buyers Forego Garages for School Districts
