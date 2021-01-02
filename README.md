@@ -1,6 +1,7 @@
 # ✰ Predicting House Prices in California - Bay Area
 
-![](images/SF_painted_ladies.jpg)
+![SF_painted_ladies](https://user-images.githubusercontent.com/67468718/103456623-c483f400-4cac-11eb-8cdb-d508d23d80ba.jpg)
+
 
 ## ✰ Target: Predict house prices using multiple Machine Learning Algorithms considering different sets of house and zip code features:
 
