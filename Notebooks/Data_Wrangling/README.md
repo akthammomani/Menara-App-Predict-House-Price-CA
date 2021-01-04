@@ -45,3 +45,5 @@ We have 8 Datasets to support this project, so we'll focus in below:
         - xml.etree.ElementTree module : to implement a simple and efficient API for parsing and creating XML data.
         - glob: to concatenate all the API output in one final DataFrame.
    * **Data Wrangling layout and the Initial DataFrame structure**: at this stage we'll not be overzealous in our cleaning because we need to explore the data to better understand it in the exploratory data analysis Stage (EDA) where we'll provide the final datframe Structure.
+
+![Data_Wrangling_initial](https://user-images.githubusercontent.com/67468718/103534919-a7822900-4e44-11eb-9f68-c6124e66bbd1.JPG)
