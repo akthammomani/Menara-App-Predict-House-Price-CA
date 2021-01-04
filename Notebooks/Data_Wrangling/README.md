@@ -37,4 +37,11 @@ The Data wrangling step focuses on collecting our data, organizing it, and makin
     
 ## 2. Data Wrangling Objectives:    
     
-
+We have 8 Datasets to support this project, so we'll focus in below:
+   * Clean NANs, duplicate values, wrong values and removing insignificant columns.
+   * Merging and concatenation will be needed.
+   * The GreatSchools API is a REST-based web service (**Completed**): will need to use Python Packages: requests, xml.etree.ElementTree and glob:
+        - requests: To request the data from GreatSchools API
+        - xml.etree.ElementTree module : to implement a simple and efficient API for parsing and creating XML data.
+        - glob: to concatenate all the API output in one final DataFrame.
+   * **Data Wrangling layout and the Initial DataFrame structure**: at this stage we'll not be overzealous in our cleaning because we need to explore the data to better understand it in the exploratory data analysis Stage (EDA) where we'll provide the final datframe Structure.
