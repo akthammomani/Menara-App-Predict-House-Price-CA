@@ -1,1 +1,40 @@
+# Data Wrangling: Predicting House prices North California
+
+## 1. Introduction:
+
+The Data wrangling step focuses on collecting our data, organizing it, and making sure it's well defined. For our project we have collected below datasets to have a good foundation to build a Machine Learning model where we can provide a good estimate of house prices in North California:
+  1. Main Dataset: Source www.redfin.com:
+    * Obtained sold houses from Dec 2019-Dec 2020.
+    * The sold houses located in North California distributed between 49 cities and 94 Zip Codes.
+    * Data has 8,790 Observations and 27 Variables.
+
+2. Adding Median Income per Zip code:
+    * Source: http://www.usa.com/rank/california-state--median-household-income--zip-code-rank.htm and since the data from 2010-2014, and according to https://www.statista.com/statistics --> the median Income in California has grown by 6.36% we’ll use this % to adjust this Dataset YoY.
+      
+      
+3. Adding Hotness score (0-100) to refelect the demand and supply per zip code:
+    * Source: https://www.realtor.com/research/data/
+      
+      
+4. Adding Public School per zip code:
+    * Source: https://hifld-geoplatform.opendata.arcgis.com/datasets/87376bdb0cb3490cbda39935626f6604_0
+    
+    
+5. Adding GreatSchools Rating to reflect Schools rating in all the selected 47 cities in North California:
+    * Source: GreatSchools.org API https://www.greatschools.org/api/request-api-key
+
+
+6. Adding Shoping and Mall centers in CA per city:
+    * Source: https://en.wikipedia.org/wiki/List_of_shopping_malls_in_California
+    
+    
+7. Adding Universities and colleges list in CA per city:
+    * Source: http://www.free-4u.com/Colleges/California-Colleges.html
+    
+    
+8. Adding BART (Bay Area Rapid Transit) stations with parking (Y/N) per zip code in North California:
+    * Source: https://www.bart.gov/stations
+    
+## 2. Data Wrangling Objectives:    
+    
 
