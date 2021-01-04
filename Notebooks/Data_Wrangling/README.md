@@ -61,6 +61,6 @@ Data Frames to be Merged:
    
    ![Data_Wrangling](https://user-images.githubusercontent.com/67468718/103494183-52b1c480-4dea-11eb-8673-612746b0d229.JPG)
    
-## 3. Target Features:      
+## 4. Target Features:      
 
 ![Features](https://user-images.githubusercontent.com/67468718/103541349-2892ed80-4e50-11eb-95ee-0be69ea98781.JPG)
