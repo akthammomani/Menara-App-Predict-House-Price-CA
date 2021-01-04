@@ -47,3 +47,18 @@ We have 8 Datasets to support this project, so we'll focus in below:
    * **Data Wrangling layout and the Initial DataFrame structure**: at this stage we'll not be overzealous in our cleaning because we need to explore the data to better understand it in the exploratory data analysis Stage (EDA) where we'll provide the final datframe Structure.
 
 ![Data_Wrangling_initial](https://user-images.githubusercontent.com/67468718/103534919-a7822900-4e44-11eb-9f68-c6124e66bbd1.JPG)
+
+## 3. Merging DataFrames:   
+
+Data Frames to be Merged: 
+   1. **df_main_sold_houses_final** is the main DataFrame
+   2. school_df
+   3. df_bart_final
+   4. df_malls_final
+   5. df_median_income
+   6. housing_final_df_v1
+   7. df_universities_final
+   
+   ![Data_Wrangling](https://user-images.githubusercontent.com/67468718/103494183-52b1c480-4dea-11eb-8673-612746b0d229.JPG)
+   
+   
