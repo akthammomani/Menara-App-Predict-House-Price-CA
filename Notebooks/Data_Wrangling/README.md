@@ -39,6 +39,7 @@ The Data wrangling step focuses on collecting our data, organizing it, and makin
     
 We have 8 Datasets to support this project, so we'll focus in below:
    * Clean NANs, duplicate values, wrong values and removing insignificant columns.
+   * Renaming Column labels.   
    * Merging and concatenation will be needed.
    * The GreatSchools API is a REST-based web service (**Completed**): will need to use Python Packages: requests, xml.etree.ElementTree and glob:
         - requests: To request the data from GreatSchools API
