@@ -131,5 +131,19 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
      - We found 1 outlier at <code>**'price_per_sqft''**</code> and we imputed the correct values (source: http://www.zillow.com) 593 USD instead of 592,692 USD.
      - We found 163 outliers at <code>**'lot_size'**</code> and we imputed the median values=5,760 Sq. Ft. (all values at these rows initially were wrong >40,000 Sq. Ft).
      - We found 7 outliers at <code>**'hoa_month'**</code> and we imputed the mean values=115.92 USD (all values at these rows initially were wrong >1,500 USD).
+   * <code>**'price'**</code>: This was the main focus in imputing wrong values and elimintaing outliers:
+     - We dropped **7 houses > 14M USD**
+     - We fixed one wrong house price from 1,600 USD to 794,126 USD
+     - Pairplot and heatmap revealed that we have strong correlation between <code>**'price'**</code> and <code>**'beds'**</code>, <code>**'baths'**</code> , <code>**'sqft'**</code>, <code>**'lot_size'**</code>, <code>**'price_per_sqft'**</code>, <code>**'school_rating'**</code>, <code>**'median_income'**</code> and <code>**'university_count'**</code>.
+   * Further fine tuning in term of house price ranges revleaed that when we keep only houses with price tag between 300K USD and 2M USD we see the highest correlation between  <code>**'price'**</code> and the above features (775 Houses were dropped) as shown below:
+     - **House Prices between 80K USD - 8M USD**: 8171 Houses
+     - **House Prices between 80K USD - 4M USD**: 8081 Houses (dropped 90 houses)
+     - **House Prices between 300K USD - 4M USD**: 7964 Houses (dropped 117 houses) 
+     - **House Prices between 300K USD - 2M USD**: 7396 Houses (dropped 568 houses) 
+   * We're highlighting the correlation between difference house price ranges against all the possible features:
+     - <font color=green>Green</font>: Correlation > 0.4
+     - <font color=blue>Blue</font>: 0 < Correlation < 0.4
+     - <font color=red>Red</font>:  Correlation < 0
+ ![compare](https://user-images.githubusercontent.com/67468718/104831538-df26a300-583e-11eb-9b9d-c19c0ba9578c.JPG)
 
 
