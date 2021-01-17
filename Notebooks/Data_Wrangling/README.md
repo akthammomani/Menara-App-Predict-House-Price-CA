@@ -1,5 +1,7 @@
 # ✰ Data Wrangling: Predicting House prices North California
 
+![Data_Wrangling_hh](https://user-images.githubusercontent.com/67468718/104858187-6ec96180-58d2-11eb-8e6e-f110ef5193fb.JPG)
+
 ## 1. Introduction:
 
 The Data wrangling step focuses on collecting our data, organizing it, and making sure it's well defined. For our project we have collected below datasets to have a good foundation to build a Machine Learning model where we can provide a good estimate of house prices in North California:
