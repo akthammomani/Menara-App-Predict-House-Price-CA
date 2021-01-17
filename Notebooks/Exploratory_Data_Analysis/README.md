@@ -1,12 +1,21 @@
 # Exploratory Data Analysis: Predicting House Prices in North California
 
-## Introduction
+Contents
+1. Introduction
+2. Objective
+3. Initial Statistics Summary
+4. Dataset Summary and Objective (Final Modifications)
+5. Main Features
+6. Features Engineering
+7. Summary
+
+## 1. Introduction
 
 Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's ready for analysis, it’s time to perform exploratory data analysis (EDA).
 
 ![EDA_1](https://user-images.githubusercontent.com/67468718/104575188-b8ccf180-560b-11eb-8037-d5b75029eb31.JPG)
 
-## Objective
+## 2. Objective
 
    * To get familiar with the features in our dataset.
    * Generally understand the core characteristics of our cleaned dataset. 
@@ -14,7 +23,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
    * Let's be creative and think about interesting figures and all the plots that can be created to help deepen our understanding of the data.
    
  
-## Initial Statistics Summary
+## 3. Initial Statistics Summary
 
 | <code>Stats</code> |  <code>Summary</code>|
 |:--- |:--- |
@@ -27,7 +36,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 |Max House Price|39,988,000 USD |
 |House Count |8918 |
 
-## Dataset Summary and Objective (Final Modifications)
+## 4. Dataset Summary and Objective (Final Modifications)
 
   * <code>**Missing Values (NANs)**</code>: There's no NANs in the df.
   * <code>**Concatenate columns**</code>: Some of the columns need to be merged togethor for better visibility.
@@ -37,7 +46,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
   * <code>**Wrong Values**</code>: Check if all our data is valid even though during Data Wrangling there was extensive process to impute wrong values either by correcting the values or dropping the rows.  
   * <code>**price**</code>: Check for any outliers so we can eliminate to better analyze the data. 
   
- ## Main Features:
+ ## 5. Main Features
  
    * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
    * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
@@ -99,7 +108,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 ![university_count](https://user-images.githubusercontent.com/67468718/104831558-e3eb5700-583e-11eb-847a-797a901bc463.JPG)
 
 
- ## Main Features:
+ ## 6. Features Engineering
  
    * **Pairplot:** let's use pairplot from seaborn to plot our dependant variable **'price'** against the main features:
 **'beds'**, **'property_type'**, **'baths'**, **'sqft'**, **'school_rating'**, **'school_count'**, **'bart_count', **''median_income'**, **''lot_size'**, **''hoa_month'**, **'malls_count'**, **'university_count'** per **'property_type'**.
@@ -112,7 +121,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 ![heatmap](https://user-images.githubusercontent.com/67468718/104831542-e057d000-583e-11eb-9b50-19f36f2cb191.JPG)
 
 
-## Summary:
+## 7. Summary
 
    * Original Data was having 8917 Observations and 26 variables (Output from Data Wrangling Part).
    * There was modifications in the dataframe which focused mainly in eliminating the outliers as much as possible:
