@@ -42,6 +42,78 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
    * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
    * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
    * Please note we'll be using a scatterplot to investigate **Numerical Variables** and will be using a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
+   * Please find below the main features before and after dealing with outliers in the Dataset ( Outliers were eliminated by imputing with correct values or using mean() or median() or dropping them):
+   
+ ### <code>'price'</code>:
+   * Before:
+![price_1](https://user-images.githubusercontent.com/67468718/104831551-e2219380-583e-11eb-8d47-2cfbd22df1e1.JPG)   
+   * After: 
+![price_2](https://user-images.githubusercontent.com/67468718/104831552-e2219380-583e-11eb-9793-02d9fc506321.JPG)  
+
+ ### <code>'sqft'</code>:
+   * No Outliers:
+![sqft](https://user-images.githubusercontent.com/67468718/104831557-e352c080-583e-11eb-95fb-943fec5a8c9a.JPG)
+
+ ### <code>'price_per_sqft'</code>:
+   * Before:
+![price_sqft_1](https://user-images.githubusercontent.com/67468718/104831554-e2ba2a00-583e-11eb-9099-2d99dfdf7540.JPG)
+   * After: 
+![price_sqft_2](https://user-images.githubusercontent.com/67468718/104831555-e352c080-583e-11eb-8d41-13b166765702.JPG)
+
+ ### <code>'lot_size'</code>:
+   * Before:
+![lot_size_1](https://user-images.githubusercontent.com/67468718/104831546-e0f06680-583e-11eb-89f6-51316be34757.JPG)
+   * After: 
+![lot_size_2](https://user-images.githubusercontent.com/67468718/104831547-e188fd00-583e-11eb-8e46-4f42790ac6b3.JPG)
+
+### <code>'hoa_month'</code>:
+   * Before:
+![hoa_per_month_1](https://user-images.githubusercontent.com/67468718/104831544-e0f06680-583e-11eb-8f74-dd09d6e0d369.JPG)
+   * After: 
+![hoa_per_month_2](https://user-images.githubusercontent.com/67468718/104831545-e0f06680-583e-11eb-9c16-5ece6ef35fc5.JPG)
+
+ ### <code>'beds'</code>:
+   * Before:
+![beds_1](https://user-images.githubusercontent.com/67468718/104831535-de8e0c80-583e-11eb-9589-b39f97faeb3c.JPG)
+   * After: 
+![beds_2](https://user-images.githubusercontent.com/67468718/104831537-df26a300-583e-11eb-868f-7ae00328a721.JPG)
+
+ ### <code>'baths'</code>:
+   * No Outliers:
+![baths_1](https://user-images.githubusercontent.com/67468718/104831534-ddf57600-583e-11eb-9c25-1346773f8c97.JPG)
+
+ ### <code>'school_rating'</code>:
+   * No Outliers:
+![school_rating](https://user-images.githubusercontent.com/67468718/104831556-e352c080-583e-11eb-96af-2ceb10abe826.JPG)
+
+ ### <code>'median_income'</code>:
+   * No Outliers:
+![median_income](https://user-images.githubusercontent.com/67468718/104831550-e2219380-583e-11eb-87b7-a794270193eb.JPG)
+
+ ### <code>'malls_count'</code>:
+   * No Outliers:
+![malls_count](https://user-images.githubusercontent.com/67468718/104831548-e188fd00-583e-11eb-8032-dacd32674442.JPG)
+
+ ### <code>'university_count'</code>:
+   * No Outliers:
+![university_count](https://user-images.githubusercontent.com/67468718/104831558-e3eb5700-583e-11eb-847a-797a901bc463.JPG)
+
+
+ ## Main Features:
+ 
+   * **Pairplot:** let's use pairplot from seaborn to plot our dependant variable **'price'** against the main features:
+**'beds'**, **'property_type'**, **'baths'**, **'sqft'**, **'school_rating'**, **'school_count'**, **'bart_count', **''median_income'**, **''lot_size'**, **''hoa_month'**, **'malls_count'**, **'university_count'** per **'property_type'**.
+
+![corr_per_property_type](https://user-images.githubusercontent.com/67468718/104831540-dfbf3980-583e-11eb-8d08-99d1cfd057ad.JPG)
+
+   * **Heatmap:** let's use heatmap from seaborn to Check the correlation between our dependant variable **'price'** against the main features:
+**'beds'**, **'property_type'**, **'baths'**, **'sqft'**, **'school_rating'**, **'school_count'**, **'bart_count', **''median_income'**, **''lot_size'**, **''hoa_month'**, **'malls_count'**, **'university_count'** per **'property_type'**.
+
+![heatmap](https://user-images.githubusercontent.com/67468718/104831542-e057d000-583e-11eb-9b50-19f36f2cb191.JPG)
+
+
+
+
    
  ### Price: Our dependent variable:
 
