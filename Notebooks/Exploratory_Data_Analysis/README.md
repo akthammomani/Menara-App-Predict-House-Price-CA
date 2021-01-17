@@ -51,7 +51,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 ![price_2](https://user-images.githubusercontent.com/67468718/104831552-e2219380-583e-11eb-9793-02d9fc506321.JPG)
 
 #### <code>**'sqft'**</code>
-    * No outliers found
+   * No outliers found
 ![sqft](https://user-images.githubusercontent.com/67468718/104831557-e352c080-583e-11eb-95fb-943fec5a8c9a.JPG)
 
 #### <code>**'price_per_sqft'**</code>: 
