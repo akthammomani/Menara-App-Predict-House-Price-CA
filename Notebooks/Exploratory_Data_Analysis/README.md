@@ -16,7 +16,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
  
 ## Initial Statistics Summary
 
-| Stats |  Summary|
+| <code>Stats</code> |  <code>Summary</code>|
 |:--- |:--- |
 |Avg Houses Price |1,058,497 USD|
 |Std|948,060.35 |
