@@ -122,5 +122,14 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
      - <code>**Duplicates**</code>: We removed 567 complete duplicates (Observations having the same variables) from <code>**'address'**</code>
      - <code>**Renaming Columns**</code>: We renamed all columns to improve visibility.
      - <code>**Wrong Values**</code>: We divided the variables into 2 categories: Numerical and categorical as below:
+      * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
+      * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
+      * We used scatterplot to investigate **Numerical Variables** and a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
+      * Main target of this section was to eliminate outliers and impute and fix wrong values.
+      * We reduced <code>**'property_type'**</code> from 5 to 3 and we focused mainly in **Single Family Residential**, **Condo/Co-op** and **Townhouse** anything else was dropped (165 rows).
+      * We dropped 11 rows associated with <code>**'Beds'**</code> >30 and <code>**'Beds'**</code>=0 (wrong values). also we fixed 5 houses after we imputed the correct values (source: http://www.zillow.com).
+      * We found 1 outlier at <code>**'price_per_sqft''**</code> and we imputed the correct values (source: http://www.zillow.com) 593 USD instead of 592,692 USD.
+      * We found 163 outliers at <code>**'lot_size'**</code> and we imputed the median values=5,760 Sq. Ft. (all values at these rows initially were wrong >40,000 Sq. Ft).
+      * We found 7 outliers at <code>**'hoa_month'**</code> and we imputed the mean values=115.92 USD (all values at these rows initially were wrong >1,500 USD).
 
 
