@@ -156,10 +156,9 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
      - <font color=red>Red</font>:  Correlation < 0
      
 <p align="center">
-  <img width="700" height="600" src="https://user-images.githubusercontent.com/67468718/104831538-df26a300-583e-11eb-9b9d-c19c0ba9578c.JPG">
+  <img width="600" height="600" src="https://user-images.githubusercontent.com/67468718/104831538-df26a300-583e-11eb-9b9d-c19c0ba9578c.JPG">
 </p>
 
-![compare](https://user-images.githubusercontent.com/67468718/104831538-df26a300-583e-11eb-9b9d-c19c0ba9578c.JPG)
 
 ![price_300_2m](https://user-images.githubusercontent.com/67468718/104831553-e2ba2a00-583e-11eb-9b50-2035146c8697.JPG)
 
