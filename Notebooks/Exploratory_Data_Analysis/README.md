@@ -99,6 +99,9 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 ![university_count](https://user-images.githubusercontent.com/67468718/104831558-e3eb5700-583e-11eb-847a-797a901bc463.JPG)
 
 
-   
+## Features Engineering:
+  * Pairplot:Main df
+![corr_per_property_type](https://user-images.githubusercontent.com/67468718/104831540-dfbf3980-583e-11eb-8d08-99d1cfd057ad.JPG)
+  
    
 
