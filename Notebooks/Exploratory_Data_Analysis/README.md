@@ -122,7 +122,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
      - <code>**Duplicates**</code>: We removed 567 complete duplicates (Observations having the same variables) from <code>**'address'**</code>
      - <code>**Renaming Columns**</code>: We renamed all columns to improve visibility.
      - <code>**Wrong Values**</code>: We divided the variables into 2 categories: Numerical and categorical as below:
-           * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
+       1.**Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
            * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
            * We used scatterplot to investigate **Numerical Variables** and a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
            * Main target of this section was to eliminate outliers and impute and fix wrong values.
