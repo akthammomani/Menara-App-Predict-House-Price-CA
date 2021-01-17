@@ -98,7 +98,6 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
  ### <code>'median_income'</code>:
    * No Outliers: We see clear positive correlation between <code>'price'</code> & <code>'median_income'</code>:
 ![median_income](https://user-images.githubusercontent.com/67468718/104831550-e2219380-583e-11eb-87b7-a794270193eb.JPG)
-
 ![median_income_hist](https://user-images.githubusercontent.com/67468718/104843531-fd60c300-587f-11eb-8a4d-e0c60c92404d.JPG)
 
  ### <code>'malls_count'</code>:
