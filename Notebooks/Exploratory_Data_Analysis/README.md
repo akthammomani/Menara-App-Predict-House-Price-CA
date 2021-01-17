@@ -44,9 +44,9 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
    * Please note we'll be using a scatterplot to investigate **Numerical Variables** and will be using a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
    
 <code>**'price'**</code>: 
-Before
+   * Before
 ![price_1](https://user-images.githubusercontent.com/67468718/104831551-e2219380-583e-11eb-8d47-2cfbd22df1e1.JPG)
-After
+   * After
 ![price_2](https://user-images.githubusercontent.com/67468718/104831552-e2219380-583e-11eb-9793-02d9fc506321.JPG)
 
 <code>**'sqft'**</code>
