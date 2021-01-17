@@ -36,4 +36,10 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
   * <code>**Renaming Columns**</code>: Some of the column's Labels need to be modified to correctly represent the underlined information.
   * <code>**Wrong Values**</code>: Check if all our data is valid even though during Data Wrangling there was extensive process to impute wrong values either by correcting the values or dropping the rows.  
   * <code>**price**</code>: Check for any outliers so we can eliminate to better analyze the data. 
+  
+ ## Main Features:
+ 
+   * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
+   * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
+   * Please note we'll be using a scatterplot to investigate **Numerical Variables** and will be using a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
 
