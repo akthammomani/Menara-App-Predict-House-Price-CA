@@ -4,7 +4,7 @@ Contents
 1. Introduction
 2. Objective
 3. Initial Statistics Summary
-4. Dataset Summary and Objective (Final Modifications)
+4. Dataset Summary (Final Modifications)
 5. Main Features
 6. Features Engineering
 7. Summary
@@ -36,7 +36,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 |Max House Price|39,988,000 USD |
 |House Count |8918 |
 
-## 4. Dataset Summary and Objective (Final Modifications)
+## 4. Dataset Summary (Final Modifications)
 
   * <code>**Missing Values (NANs)**</code>: There's no NANs in the df.
   * <code>**Concatenate columns**</code>: Some of the columns need to be merged togethor for better visibility.
