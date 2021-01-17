@@ -42,14 +42,15 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
    * **Numerical Variables:** <code>'price'</code>, <code>'sqft'</code>, <code>'price_per_sqft'</code>, <code>'lot_size'</code>, <code>'hoa_month'</code> and <code>'property_age'</code>
    * **Categorical Variables:** <code>'beds'</code>, <code>'baths'</code>, <code>'school_rating'</code>, <code>'school_count'</code>, <code>'median_income'</code>, <code>'malls_count'</code> and <code>'universities_count'</code>
    * Please note we'll be using a scatterplot to investigate **Numerical Variables** and will be using a combination of **scatterplot, boxplot and stripplot.** to investigate **Categorical Variables**
+   * Please find below the main features before and after dealing with outliers in the dataset:
    
-### <code>**'price'**</code>: 
+#### <code>**'price'**</code>: 
    * Before
 ![price_1](https://user-images.githubusercontent.com/67468718/104831551-e2219380-583e-11eb-8d47-2cfbd22df1e1.JPG)
    * After
 ![price_2](https://user-images.githubusercontent.com/67468718/104831552-e2219380-583e-11eb-9793-02d9fc506321.JPG)
 
-### <code>**'sqft'**</code>
+#### <code>**'sqft'**</code>
 
 
 
