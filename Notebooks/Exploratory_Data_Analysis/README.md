@@ -140,7 +140,7 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
      - **House Prices between 80K USD - 4M USD**: 8081 Houses (dropped 90 houses)
      - **House Prices between 300K USD - 4M USD**: 7964 Houses (dropped 117 houses) 
      - **House Prices between 300K USD - 2M USD**: 7396 Houses (dropped 568 houses) 
-   * We're highlighting the correlation between difference house price ranges against all the possible features:
+   * We're highlighting the correlation between difference house price ranges against all the possible features (by applying a conditional formatting using <code>**correlation() function (defined)**</code> and <code>**df.style property**</code>):
      - <font color=green>Green</font>: Correlation > 0.4
      - <font color=blue>Blue</font>: 0 < Correlation < 0.4
      - <font color=red>Red</font>:  Correlation < 0
