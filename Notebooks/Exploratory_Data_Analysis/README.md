@@ -60,6 +60,44 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
    * After
 ![price_sqft_2](https://user-images.githubusercontent.com/67468718/104831555-e352c080-583e-11eb-8d41-13b166765702.JPG)
 
+#### <code>**'lot_size'**</code>: 
+   * Before
+![lot_size_1](https://user-images.githubusercontent.com/67468718/104831546-e0f06680-583e-11eb-89f6-51316be34757.JPG)
+   * After
+![lot_size_2](https://user-images.githubusercontent.com/67468718/104831547-e188fd00-583e-11eb-8e46-4f42790ac6b3.JPG)
+
+#### <code>**'hoa_month'**</code>: 
+   * Before
+![hoa_per_month_1](https://user-images.githubusercontent.com/67468718/104831544-e0f06680-583e-11eb-8f74-dd09d6e0d369.JPG)
+   * After
+![hoa_per_month_2](https://user-images.githubusercontent.com/67468718/104831545-e0f06680-583e-11eb-9c16-5ece6ef35fc5.JPG)
+
+#### <code>**'beds'**</code>: 
+   * Before
+![beds_1](https://user-images.githubusercontent.com/67468718/104831535-de8e0c80-583e-11eb-9589-b39f97faeb3c.JPG)
+   * After
+![beds_2](https://user-images.githubusercontent.com/67468718/104831537-df26a300-583e-11eb-868f-7ae00328a721.JPG)
+
+#### <code>**'baths'**</code>
+    * No outliers found
+![baths_1](https://user-images.githubusercontent.com/67468718/104831534-ddf57600-583e-11eb-9c25-1346773f8c97.JPG)
+
+#### <code>**'school_rating'**</code>
+    * No outliers found
+![school_rating](https://user-images.githubusercontent.com/67468718/104831556-e352c080-583e-11eb-96af-2ceb10abe826.JPG)
+
+#### <code>**'median_income'**</code>
+    * No outliers found
+![median_income](https://user-images.githubusercontent.com/67468718/104831550-e2219380-583e-11eb-87b7-a794270193eb.JPG)
+
+#### <code>**'malls_count'**</code>
+    * No outliers found
+![malls_count](https://user-images.githubusercontent.com/67468718/104831548-e188fd00-583e-11eb-8032-dacd32674442.JPG)
+
+#### <code>**'university_count'**</code>
+    * No outliers found
+![university_count](https://user-images.githubusercontent.com/67468718/104831558-e3eb5700-583e-11eb-847a-797a901bc463.JPG)
+
 
    
    
