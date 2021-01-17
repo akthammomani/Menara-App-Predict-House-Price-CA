@@ -147,6 +147,8 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 
 ![compare](https://user-images.githubusercontent.com/67468718/104831538-df26a300-583e-11eb-9b9d-c19c0ba9578c.JPG)
 
+![price_300_2m](https://user-images.githubusercontent.com/67468718/104831553-e2ba2a00-583e-11eb-9b50-2035146c8697.JPG)
+
 ![corr_per_property_type_300k_2m](https://user-images.githubusercontent.com/67468718/104831541-dfbf3980-583e-11eb-821e-2bb44d78d625.JPG)
 
 ![heatmap_300_2m](https://user-images.githubusercontent.com/67468718/104831543-e057d000-583e-11eb-8727-7a4821cc1c29.JPG)
