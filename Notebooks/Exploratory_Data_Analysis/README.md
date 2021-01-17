@@ -27,3 +27,13 @@ Now that we’ve obtained, cleaned, and wrangled our dataset into a form that's 
 |Max House Price|39,988,000 USD |
 |House Count |8918 |
 
+## Dataset Summary and Objective (Final Modifications)
+
+  * <code>**Missing Values (NANs)**</code>: There's no NANs in the df.
+  * <code>**Concatenate columns**</code>: Some of the columns need to be merged togethor for better visibility.
+  * <code>**Insignificant Columns**</code>: Check if all columns are significant, otherwise let's drop them.  
+  * <code>**Duplicates**</code>: Explore the columns to make sure no duplicates.  
+  * <code>**Renaming Columns**</code>: Some of the column's Labels need to be modified to correctly represent the underlined information.
+  * <code>**Wrong Values**</code>: Check if all our data is valid even though during Data Wrangling there was extensive process to impute wrong values either by correcting the values or dropping the rows.  
+  * <code>**price**</code>: Check for any outliers so we can eliminate to better analyze the data. 
+
