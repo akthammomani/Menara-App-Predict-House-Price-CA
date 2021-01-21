@@ -1,4 +1,4 @@
-# Exploratory Data Analysis: Predicting House Prices in North California
+# ✰ Exploratory Data Analysis: Predicting House Prices in North California
 
 Contents
 1. Introduction
