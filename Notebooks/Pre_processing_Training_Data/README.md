@@ -61,5 +61,14 @@ Making a Linear Regression model: our first baseline model. Sklearn has a Linear
   As we can see below by visualizing the residual we can see that is normally distributed which is a good indication that we're having a linear relationship with our dependent variable 'price'.
   ![resid](https://user-images.githubusercontent.com/67468718/111863615-e9861b80-8919-11eb-8d24-e5272016fc90.JPG)
   
-
+  #### 4.2 Linear Regression Model Evaluation
+  
+  |<code>**Metrics**</code>|<code>**Score**</code>|
+  |:-----------------------|:--------------------:|
+  |Linear Regression - r2 |93.45 %|
+  |Linear Regression - MAE|69515.8128|
+  |Linear Regression - MSE|9682059380.4424|
+  |Linear Regression - RMSE|98397.4562|
+  |Linear Regression - Variance|93.45 %|
+  
 
