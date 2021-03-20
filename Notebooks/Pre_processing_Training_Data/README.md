@@ -25,6 +25,6 @@ The pre-processing and Training data is considered as the final step for data ma
   #### 2.2 Visualization all difference datasets based on multiple outliers method: Target Variable "price" Visualization using different datasets:
   ![datasets](https://user-images.githubusercontent.com/67468718/111862562-5ba73200-8913-11eb-8fa4-e503f47f647c.JPG)
 
-  #### 2.3 Datasets comparison using statistics summary:
+  #### 2.3 Datasets comparison using statistics summary: According to the below table, std_df is showig the best, mean, std by eliminating all data greater than 1.2 standard deviation from the mean and at the same we managed only to lose 687 outliers.
   ![stat_sum](https://user-images.githubusercontent.com/67468718/111862620-96a96580-8913-11eb-8115-fc35fb887f40.JPG)
-  According to the above table, std_df is showig the best, mean, std by eliminating all data greater than 1.2 standard deviation from the mean and at the same we managed only to lose 687 outliers.
+ 
