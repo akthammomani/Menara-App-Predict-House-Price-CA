@@ -21,6 +21,7 @@ The pre-processing and Training data is considered as the final step for data ma
   #### 2.1 Target Variable "price" Visualization with Outliers boundaries using Quantile and Standrad Deviation
   ![standard_price](https://user-images.githubusercontent.com/67468718/111862529-21d62b80-8913-11eb-9369-0dfb1449fe9d.JPG)
   ![quant_price](https://user-images.githubusercontent.com/67468718/111862528-213d9500-8913-11eb-802e-918ee468b391.JPG)
-  
-
+ 
+  #### 2.2 Visualization all difference datasets based on multiple outliers method: Target Variable "price" Visualization using different datasets
+  ![datasets](https://user-images.githubusercontent.com/67468718/111862562-5ba73200-8913-11eb-8fa4-e503f47f647c.JPG)
 
