@@ -42,3 +42,10 @@ The pre-processing and Training data is considered as the final step for data ma
        * universities: 1 yes universities and 0 no Universities 
    * Beds_Baths_tradeoff (bedBath) = beds * baths
    * AvgRoomSize = sqft / (beds + baths)
+
+  #### 3.2 Dropping and encoding Features
+   * Let's drop 'address', 'malls_count', 'bart_count', 'lat', 'long'
+   * After we drop the above columns, that means we still have one column with 'object' datatype which is 'property_type', so let's encode it manually:
+       * Single Family Residential == 0
+       * Condo/Co-op == 1
+       * Townhouse == 2
