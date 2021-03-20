@@ -63,6 +63,8 @@ Making a Linear Regression model: our first baseline model. Sklearn has a Linear
   
   #### 4.2 Linear Regression Model Evaluation
   
+  As we can see, the value of **root mean squared error (RMSE) is 98397.45**, which is slightly larger than 10% of the mean value of the Sales Price i.e.  $887,769.19. also, we have **very good variance score at 93.5%. This means that our initial algorithm is working and we're in the right track.**
+  
   |<code>**Metrics**</code>|<code>**Score**</code>|
   |:-----------------------|:--------------------:|
   |Linear Regression - r2 |93.45 %|
