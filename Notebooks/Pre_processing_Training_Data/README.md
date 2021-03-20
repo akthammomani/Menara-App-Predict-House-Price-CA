@@ -30,3 +30,7 @@ The pre-processing and Training data is considered as the final step for data ma
  
   #### 2.4 Datasets comparision using Correlation and Applying conditional formatting: According to the below datasets, std_df is again showig the best correlation between our target variable (price) and all other features when we compare all datasets.
   ![corr](https://user-images.githubusercontent.com/67468718/111862703-3ebf2e80-8914-11eb-9c60-31ed974224df.JPG)
+
+  #### 2.5 Visualizing House Sales vs Median Income and School Rating using Plotly and Mapbox:
+  ![plotly_sales](https://user-images.githubusercontent.com/67468718/111863038-44b60f00-8916-11eb-809b-2b8ac518bbca.JPG)
+  
