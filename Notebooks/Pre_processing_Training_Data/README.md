@@ -18,6 +18,6 @@ The pre-processing and Training data is considered as the final step for data ma
 
 
 ## 2. Removing Outliers:
-  ### 2.1 Target Variable "price" Visualization with Outliers boundaries using Quantile and Standrad Deviation
+  #### 2.1 Target Variable "price" Visualization with Outliers boundaries using Quantile and Standrad Deviation
 
 
