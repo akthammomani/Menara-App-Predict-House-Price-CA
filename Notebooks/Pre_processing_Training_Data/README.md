@@ -25,10 +25,14 @@ The pre-processing and Training data is considered as the final step for data ma
   #### 2.2 Visualization all difference datasets based on multiple outliers method: Target Variable "price" Visualization using different datasets:
   ![datasets](https://user-images.githubusercontent.com/67468718/111862562-5ba73200-8913-11eb-8fa4-e503f47f647c.JPG)
 
-  #### 2.3 Datasets comparison using statistics summary: According to the below table, std_df is showig the best, mean, std by eliminating all data greater than 1.2 standard deviation from the mean and at the same we managed only to lose 687 outliers.
+  #### 2.3 Datasets comparison using statistics summary: 
+  
+  According to the below table, std_df is showig the best, mean, std by eliminating all data greater than 1.2 standard deviation from the mean and at the same we managed only to lose 687 outliers.
   ![stat_sum](https://user-images.githubusercontent.com/67468718/111862620-96a96580-8913-11eb-8115-fc35fb887f40.JPG)
  
-  #### 2.4 Datasets comparision using Correlation and Applying conditional formatting: According to the below datasets, std_df is again showig the best correlation between our target variable (price) and all other features when we compare all datasets.
+  #### 2.4 Datasets comparision using Correlation and Applying conditional formatting: 
+  
+  According to the below datasets, std_df is again showig the best correlation between our target variable (price) and all other features when we compare all datasets.
   ![corr](https://user-images.githubusercontent.com/67468718/111862703-3ebf2e80-8914-11eb-9c60-31ed974224df.JPG)
 
   #### 2.5 Visualizing House Sales vs Median Income and School Rating using Plotly and Mapbox:
