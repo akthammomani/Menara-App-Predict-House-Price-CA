@@ -76,3 +76,20 @@ Making a Linear Regression model: our first baseline model. Sklearn has a Linear
   #### 4.3 Linear Regression model: predictions vs. the actual values
   
   ![actual_pred](https://user-images.githubusercontent.com/67468718/111864397-db39fe80-891d-11eb-83c7-8a7e6b397585.JPG)
+  
+## 5. Models next step:
+
+Now, after building our base Model: Linear regression, let's see if we can further improve our prediction using below algorithms:
+
+ * Ordinary Least Squares (OLS)
+ * Ridge Regression (L2 Regularization)
+ * Lasso Regression (L1 Regularization)
+ * Logistic Regression
+ * Decision Trees
+ * Random Forests
+ * GB
+ * XGBoost
+ * Support Vector Regression
+ * Stacking
+ * Neural networks.
+
