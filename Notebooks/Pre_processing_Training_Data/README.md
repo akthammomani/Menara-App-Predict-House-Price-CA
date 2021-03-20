@@ -52,3 +52,8 @@ The pre-processing and Training data is considered as the final step for data ma
   #### 3.3 Final Visualization of our Target Variable 'price':
   ![final_price_mean](https://user-images.githubusercontent.com/67468718/111863365-657f6400-8918-11eb-84dc-b28dc3d61988.JPG)
   
+## 4. Linear Regression:
+
+Making a Linear Regression model: our first baseline model. Sklearn has a LinearRegression() function built into the linear_model module. We'll be using that to make our first regression model.
+
+
