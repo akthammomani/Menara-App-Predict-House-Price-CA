@@ -73,4 +73,6 @@ Making a Linear Regression model: our first baseline model. Sklearn has a Linear
   |Linear Regression - RMSE|98397.4562|
   |Linear Regression - Variance|93.45 %|
   
-
+  #### 4.3 Linear Regression model: predictions vs. the actual values
+  
+  ![actual_pred](https://user-images.githubusercontent.com/67468718/111864397-db39fe80-891d-11eb-83c7-8a7e6b397585.JPG)
