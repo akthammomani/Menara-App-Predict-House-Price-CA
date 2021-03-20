@@ -37,8 +37,8 @@ The pre-processing and Training data is considered as the final step for data ma
 ## 3. Features Engineering:
   #### 3.1 Introducing New Features
    * Let's create New 3 categorical  features (boolean variables): 
-           * barts: 1 yes barts and 0 no barts 
-           * malls: 1 yes malls and 0 no malls
-           * universities: 1 yes universities and 0 no Universities 
+       * barts: 1 yes barts and 0 no barts 
+       * malls: 1 yes malls and 0 no malls
+       * universities: 1 yes universities and 0 no Universities 
    * Beds_Baths_tradeoff (bedBath) = beds * baths
    * AvgRoomSize = sqft / (beds + baths)
