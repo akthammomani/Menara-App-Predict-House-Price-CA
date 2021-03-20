@@ -56,4 +56,10 @@ The pre-processing and Training data is considered as the final step for data ma
 
 Making a Linear Regression model: our first baseline model. Sklearn has a LinearRegression() function built into the linear_model module. We'll be using that to make our first regression model.
 
+  #### 4.1 Linear Regression: Residuals Visualization
+  
+  As we can see below by visualizing the residual we can see that is normally distributed which is a good indication that we're having a linear relationship with our dependent variable 'price'.
+  ![resid](https://user-images.githubusercontent.com/67468718/111863615-e9861b80-8919-11eb-8d24-e5272016fc90.JPG)
+  
+
 
