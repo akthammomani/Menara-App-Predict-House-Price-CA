@@ -34,3 +34,11 @@ The pre-processing and Training data is considered as the final step for data ma
   #### 2.5 Visualizing House Sales vs Median Income and School Rating using Plotly and Mapbox:
   ![plotly_sales](https://user-images.githubusercontent.com/67468718/111863038-44b60f00-8916-11eb-809b-2b8ac518bbca.JPG)
   
+## 3. Features Engineering:
+  #### 3.1 Introducing New Features
+        * Let's create New 3 categorical  features (boolean variables): 
+           * barts: 1 yes barts and 0 no barts 
+           * malls: 1 yes malls and 0 no malls
+           * universities: 1 yes universities and 0 no Universities 
+        * Beds_Baths_tradeoff (bedBath) = beds * baths
+        * AvgRoomSize = sqft / (beds + baths)
