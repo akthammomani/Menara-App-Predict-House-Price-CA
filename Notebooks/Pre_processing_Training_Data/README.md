@@ -85,7 +85,6 @@ Making a Linear Regression model: our first baseline model. Sklearn has a Linear
 
 Now, after building our base Model: Linear regression, let's see if we can further improve our prediction using below algorithms:
 
- * Ordinary Least Squares (OLS)
  * Ridge Regression (L2 Regularization)
  * Lasso Regression (L1 Regularization)
  * Logistic Regression
