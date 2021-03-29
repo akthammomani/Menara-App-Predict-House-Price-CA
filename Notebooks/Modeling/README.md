@@ -17,6 +17,5 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Random Forests
  * GB
  * XGBoost
- * Support Vector Regression
  * Stacking
  * Neural networks.
