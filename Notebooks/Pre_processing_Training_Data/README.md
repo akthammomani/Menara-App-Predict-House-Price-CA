@@ -87,12 +87,10 @@ Now, after building our base Model: Linear regression, let's see if we can furth
 
  * Ridge Regression (L2 Regularization)
  * Lasso Regression (L1 Regularization)
- * Logistic Regression
  * Decision Trees
  * Random Forests
  * GB
  * XGBoost
- * Support Vector Regression
  * Stacking
  * Neural networks.
 
