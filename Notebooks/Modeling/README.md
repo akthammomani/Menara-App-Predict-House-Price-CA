@@ -126,7 +126,7 @@ As we can see below, We managed to improve our Decision Tree Regression Model by
 |All features + {'min_samples_split': 6, 'min_samples_leaf': 6} (RandomizedSearchCV)|98.9881 %|23113.4753|1495079820.6304|38666.2620|98.9881 %|
 |Keeping Top-2 features + {max_depth=20} (RandomizedSearchCV) |99.2356 %|15092.9610|1129397345.5981|33606.5075|99.2365 %|
  
-## 6. Linear Regressioion Tuning Summary: 
+## 6. Linear Regression Tuning Summary: 
 
 As we can see below, when we're dropping 2 features ('malls', 'university_count'): we're seeing the best Result for Linear regression: 
 
@@ -136,3 +136,16 @@ As we can see below, when we're dropping 2 features ('malls', 'university_count'
 |Dropping 2 features    |93.4513 %|69477.6024|9676046249.8131|98366.8961|93.4530 %|
 |Dropping 3 Features    |93.4452 %|69372.9557|9685059694.4905|98412.7009|93.4466 %|
 |Dropping 5 Features    |93.4136 %|69435.2387|9731797948.3080|98649.8756|93.4154 %|
+
+ ## 6. Ridge Regression Tuning Summary:
+
+As we can see below, We managed to improve our Ridge Regression Model by:
+ * Dropping 2 features ('malls', 'university_count'), and
+ * Using Regularization to determine best Alpha=0.00018374437246107268
+ * Variance Score has improved from 93.4414 % (Ridge - baseline) to 93.4594 %
+
+|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline (all features + Alpha=1 (Default))|93.4394 %|69557.6932|9693635442.7628|98456.2616|93.4414 %|
+|Dropping 2 features    |93.4446 %|69518.8784|9685945307.3284|98417.2003|93.4466 %|
+|Dropping 2 features + Regularization II (Alpha =0.00018374437246107268)  |93.4576 %|69427.9988|9666812279.1121|98319.9485|93.4594 %|
