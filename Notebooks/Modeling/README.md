@@ -20,6 +20,8 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Stacking
  * Neural networks.
 
+## Regression Models Performance Summary:
+
 |Model|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
 |:----------------------|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
 |XGBoost|Baseline|99.3961 %|18562.6278|892350521.4109|29872.2366|99.3963 %|
