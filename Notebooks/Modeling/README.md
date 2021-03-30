@@ -2,7 +2,7 @@
 
 ![Modeling](https://user-images.githubusercontent.com/67468718/111879997-1bbd6a80-8966-11eb-92c1-01c38cbdbe4a.JPG)
 
-## 1. Introduction<a id='1_Introduction'></a>
+## Introduction<a id='1_Introduction'></a>
 
 Here comes the really fun step: modeling! For this step, we'll be:
  * Training multiple Regression algorithms.
@@ -20,7 +20,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Stacking
  * Neural networks.
 
-## XGBoost Regression Tuning Summary:
+## 1. XGBoost Regression Tuning Summary:
 
 As we can see below, We managed to improve our XGBoost Regression Model by:
  * keeping only the most important features: 2 features ('sqft' and'price_per_sqft'), and
