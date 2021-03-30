@@ -123,7 +123,7 @@ As we can see below, We managed to improve our Neural Network Regression Model b
    * NN-Model 1 we used 1 Hidden layer with 22 Neurons.
    * NN-Model 2 we used 3 Hidden layer with 22 Neurons.
    * NN-Model 3 we used 5 Hidden layer with 40 Neurons.
- * **Variance Score has improved from 79.3446 % (XGBoost - baseline) to 99.3254 %.**
+ * **Variance Score has improved from 79.3446 % (Neural Network - baseline) to 99.3254 %.**
  
 |Neural Network Architecture| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
 |:----------------------|:-------:|:-------:|:----:|:----:|:----:|
