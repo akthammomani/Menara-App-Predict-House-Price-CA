@@ -95,7 +95,7 @@ As we can see below, We managed to improve our Random Forests Regression Model b
  
 ## 4. Neural Network Regression Tuning Summary:
 
-As we can see below, We managed to improve our Neural Network Regressio Regression Model by:
+As we can see below, We managed to improve our Neural Network Regression Model by:
  * Making the Neural Network deeper by using more hidden Layers, and
  * Making the Neural Network wider by using more neurons
    * NN-Model 1 we used 1 Hidden layer with 22 Neurons.
