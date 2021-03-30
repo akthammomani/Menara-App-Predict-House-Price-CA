@@ -107,5 +107,5 @@ As we can see below, We managed to improve our Neural Network Regressio Regressi
 |:----------------------|:-------:|:-------:|:----:|:----:|:----:|
 |NN-Model 1: 1 Hidden layer with 22 Neurons|79.1614 %|129672.4510|30790164793.7299|175471.2649|79.3446 %|
 |NN-Model 2: 3 Hidden layer with 22 Neurons|96.2795 %|52197.7063|5497273121.1486|74143.5980|96.3320 %|
-|NN-Model 3: 5 Hidden layer with 40 Neurons|99.3142 % %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
+|NN-Model 3: 5 Hidden layer with 40 Neurons|99.3142 %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
  
