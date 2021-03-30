@@ -73,4 +73,23 @@ As we can see below, We managed to improve our Gradient Boosting Regression Mode
  * One key difference between random forests and gradient boosting decision trees is the number of trees used in the model.
    * Increasing the number of trees in random forests does not cause overfitting.
    * The number of trees in gradient boosting decision trees is very critical in terms of overfitting. Adding too many trees will cause overfitting so it is important to stop adding trees at some point.
+
+## 3. Random Forests Regression Tuning Summary:
+
+As we can see below, We managed to improve our Random Forests Regression Model by:
+ * keeping only the most important features: 2 features ('sqft' and'price_per_sqft'), and
+ * Hyperparameters Tuning using RandomizedSearchCV to determine best:
+   * {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 30} when considering all features.
+   * {'n_estimators': 450, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 16} when considering only the top-2 important features
+   * {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 26} when considering only the top-5 important features 
+ * Variance Score has improved from 99.6789  % (Random Forests - baseline) to 99.8214 %
+
+|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline (all features)|99.6786 %|9767.2155|474838904.0747|21790.7986|99.6789 %|
+|Keeping 2 features (Most Important)    |99.8165 %|6530.7833|271089597.6564|16464.7987|99.8168 %|
+|Keeping 5 features    |99.7714  %|17679.2312|337800382.4367|18379.3466|99.7718 %|
+|Keeping All features + {'n_estimators': 500, 'max_depth': 30} (RandomizedSearchCV)  |99.6824 %|9620.5996|469264404.6720|21662.5115|99.6826 %|
+|Keeping top-2 features + {'n_estimators': 450, 'max_depth': 16} (RandomizedSearchCV)|99.8210 %|6302.4739|264445019.5696|16261.7656|99.8214 %|
+|Keeping top-5 features + {'n_estimators': 500, 'max_depth': 26} (RandomizedSearchCV)|99.7865 %|7353.4259|315470893.2504|17761.5003|99.7866 %|
  
