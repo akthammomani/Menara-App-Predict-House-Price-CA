@@ -93,3 +93,19 @@ As we can see below, We managed to improve our Random Forests Regression Model b
 |Keeping top-2 features + {'n_estimators': 450, 'max_depth': 16} (RandomizedSearchCV)|99.8210 %|6302.4739|264445019.5696|16261.7656|99.8214 %|
 |Keeping top-5 features + {'n_estimators': 500, 'max_depth': 26} (RandomizedSearchCV)|99.7865 %|7353.4259|315470893.2504|17761.5003|99.7866 %|
  
+## 4. Neural Network Regression Tuning Summary:
+
+As we can see below, We managed to improve our Neural Network Regressio Regression Model by:
+ * Making the Neural Network deeper by using more hidden Layers, and
+ * Making the Neural Network wider by using more neurons
+   * NN-Model 1 we used 1 Hidden layer with 22 Neurons.
+   * NN-Model 2 we used 3 Hidden layer with 22 Neurons.
+   * NN-Model 3 we used 5 Hidden layer with 40 Neurons.
+ * **Variance Score has improved from 79.3446 % (XGBoost - baseline) to 99.3254 %.**
+ 
+|Neural Network Architecture| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|NN-Model 1 we used 1 Hidden layer with 22 Neurons|79.1614 %|129672.4510|30790164793.7299|175471.2649|79.3446 %|
+|NN-Model 2 we used 3 Hidden layer with 22 Neurons|96.2795 %|52197.7063|5497273121.1486|74143.5980|96.3320 %|
+|NN-Model 3 we used 5 Hidden layer with 40 Neurons|99.3142 % %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
+ 
