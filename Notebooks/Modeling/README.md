@@ -126,3 +126,13 @@ As we can see below, We managed to improve our Decision Tree Regression Model by
 |All features + {'min_samples_split': 6, 'min_samples_leaf': 6} (RandomizedSearchCV)|98.9881 %|23113.4753|1495079820.6304|38666.2620|98.9881 %|
 |Keeping Top-2 features + {max_depth=20} (RandomizedSearchCV) |99.2356 %|15092.9610|1129397345.5981|33606.5075|99.2365 %|
  
+## 6. Linear Regressioion Tuning Summary: 
+
+As we can see below, when we're dropping 2 features ('malls', 'university_count'): we're seeing the best Result for Linear regression: 
+
+|Features Selection| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline (all features)|93.4472 %|69515.8128|9682059380.4426|98397.4562|93.4490 %|
+|Dropping 2 features    |93.4513 %|69477.6024|9676046249.8131|98366.8961|93.4530 %|
+|Dropping 3 Features    |93.4452 %|69372.9557|9685059694.4905|98412.7009|93.4466 %|
+|Dropping 5 Features    |93.4136 %|69435.2387|9731797948.3080|98649.8756|93.4154 %|
