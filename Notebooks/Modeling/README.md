@@ -149,3 +149,18 @@ As we can see below, We managed to improve our Ridge Regression Model by:
 |Baseline (all features + Alpha=1 (Default))|93.4394 %|69557.6932|9693635442.7628|98456.2616|93.4414 %|
 |Dropping 2 features    |93.4446 %|69518.8784|9685945307.3284|98417.2003|93.4466 %|
 |Dropping 2 features + Regularization II (Alpha =0.00018374437246107268)  |93.4576 %|69427.9988|9666812279.1121|98319.9485|93.4594 %|
+
+## 7. Lasso Regression Tuning Summary:
+
+As we can see below, We managed to improve our Lasso Regression Model by:
+ * Dropping 2 features ('malls', 'university_count'), and
+ * Variance Score has improved from 93.4418 % (Lasso - baseline) to 93.4470 %
+ 
+However, Lasso Model degraded slightly after we applied regularization L1 as shown below: 
+
+
+|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline  (all features + Alpha=1 (Default))|93.4398 %|69554.3493|9693079224.7295|98453.4368|93.4418 %|
+|Dropping 2 features    |93.4450 %|69516.0097|9685389213.4795|98414.3750|93.4470 %|
+|Dropping 2 features + Regularization I (Alpha =10)  |93.4446 %|69511.4134|9685988690.4620|98417.4207|93.4466 %|
