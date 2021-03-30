@@ -108,4 +108,21 @@ As we can see below, We managed to improve our Neural Network Regression Model b
 |NN-Model 1: 1 Hidden layer with 22 Neurons|79.1614 %|129672.4510|30790164793.7299|175471.2649|79.3446 %|
 |NN-Model 2: 3 Hidden layer with 22 Neurons|96.2795 %|52197.7063|5497273121.1486|74143.5980|96.3320 %|
 |NN-Model 3: 5 Hidden layer with 40 Neurons|99.3142 %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
+
+## 5. Decision Tree Regression Tuning Summary:
+
+As we can see below, We managed to improve our Decision Tree Regression Model by:
+ * keeping only the most important features: 2 features ('sqft' and'price_per_sqft'), and
+ * Hyperparameters Tuning using RandomizedSearchCV to determine best:
+   * {'splitter': 'best', 'min_samples_split': 6, 'min_samples_leaf': 6, 'max_depth': None} when considering all features.
+   * {'splitter': 'best', 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 20} when considering only the most important features.
+ * Variance Score has improved from 98.7780 % (Decision Tree - baseline) to 99.2365 %.
+
+|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline (all features)|98.7776 %|22497.1309|1806197855.0123|42499.3865|98.7780 %|
+|Keeping 2 features (Most Important)    |99.2406 %|15058.3533|1122033204.6526|33496.7641|99.2412 %|
+|Keeping 5 features                     |98.7992 %|19343.5318|1774295512.9909|42122.3873|98.7997 %|
+|All features + {'min_samples_split': 6, 'min_samples_leaf': 6} (RandomizedSearchCV)|98.9881 %|23113.4753|1495079820.6304|38666.2620|98.9881 %|
+|Keeping Top-2 features + {max_depth=20} (RandomizedSearchCV) |99.2356 %|15092.9610|1129397345.5981|33606.5075|99.2365 %|
  
