@@ -29,7 +29,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
 |Gradient Boosting|Baseline|99.1028 %|25714.0701|1325687350.4870|36409.9897|99.1037 %|
 |Gradient Boosting|All features + RandomizedSearchCV:{'n_estimators': 450, 'max_depth': 5, 'learning_rate': 0.1, 'alpha': 0.9}|99.6818 %|11633.3820|470161172.4308|21683.2002|99.6820 %|
 |Random Forests|Baseline|99.6786 %|9767.2155|474838904.0747|21790.7986|99.6789 %|
-|Random Forests|All features + RandomizedSearchCV:{'n_estimators': 500, 'max_depth': 30}|99.6824 %|9620.5996|469264404.6720|21662.5115|99.6826 %|
+|Random Forests|All features + RandomizedSearchCV:{'n_estimators': 1000, 'max_depth': 16}|99.6906 %|9462.1496|457219553.6107|21382.6929|99.6908 %|
 |Neural Network|NN-Model 1: 1 Hidden layer with 22 Neurons|79.1614 %|129672.4510|30790164793.7299|175471.2649|79.3446 %|
 |Neural Network|NN-Model 2: 3 Hidden layer with 22 Neurons|96.2795 %|52197.7063|5497273121.1486|74143.5980|96.3320 %|
 |Neural Network|NN-Model 3: 5 Hidden layer with 40 Neurons|99.3142 %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
