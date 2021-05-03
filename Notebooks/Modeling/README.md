@@ -179,4 +179,24 @@ As we can see below, We managed to improve our Gradient Boosting Regression Mode
  * One key difference between random forests and gradient boosting decision trees is the number of trees used in the model.
    * Increasing the number of trees in random forests does not cause overfitting.
    * The number of trees in gradient boosting decision trees is very critical in terms of overfitting. Adding too many trees will cause overfitting so it is important to stop adding trees at some point.
+
+## 8. Stacking Regression Tuning Summary:
+
+As we can see below, We managed to improve our Stacking Regression Model by **stacking**:
+ * Random Forests.
+ * Gradient Boosting.
+ * LightGBM
+ * XGBoost
+
+
+Variance Score has improved from 92.4168 % (Stacking Regression - baseline) to 92.7760 % and also we managed to get better performance from all base (Tuned) Models as shown below:
+ 
+|Models| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Tuned Random Forests|92.1982 %|92.1141 %|67886.0897|105107.8895|92.2170 %|
+|Tuned Gradient Boosting   |92.4799 %|92.3988 %|66910.7055|103193.3274|92.4863 %|
+|Tuned XGBoost   |92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
+|Tuned LightGBM|92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
+|Baseline Stacking|92.4033 %|92.3214 %|68855.7449|103717.3961|92.4168 %|
+|Tuned Stacking  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
  
