@@ -31,25 +31,20 @@ Here comes the really fun step: modeling! For this step, we'll be:
 
 ## Regression Models Performance Summary:
 
-|Model|Model Tuning| r2 Score|    MAE  | MSE  | RMSE|Variance Score|
-|:----------------------|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
-|XGBoost|Baseline|99.3961 %|18562.6278|892350521.4109|29872.2366|99.3963 %|
-|XGBoost|All features + RandomizedSearchCV:{'n_estimators': 350, 'max_depth': 6, 'learning_rate': 0.05, 'gamma': 0.07}|99.6757 %|11941.3109|479239850.7725|21891.5475|99.6757 %|
-|Gradient Boosting|Baseline|99.1028 %|25714.0701|1325687350.4870|36409.9897|99.1037 %|
-|Gradient Boosting|All features + RandomizedSearchCV:{'n_estimators': 450, 'max_depth': 5, 'learning_rate': 0.1, 'alpha': 0.9}|99.6818 %|11633.3820|470161172.4308|21683.2002|99.6820 %|
-|Random Forests|Baseline|99.6786 %|9767.2155|474838904.0747|21790.7986|99.6789 %|
-|Random Forests|All features + RandomizedSearchCV:{'n_estimators': 1000, 'max_depth': 16}|99.6906 %|9462.1496|457219553.6107|21382.6929|99.6908 %|
-|Neural Network|NN-Model 1: 1 Hidden layer with 22 Neurons|79.1614 %|129672.4510|30790164793.7299|175471.2649|79.3446 %|
-|Neural Network|NN-Model 2: 3 Hidden layer with 22 Neurons|96.2795 %|52197.7063|5497273121.1486|74143.5980|96.3320 %|
-|Neural Network|NN-Model 3: 5 Hidden layer with 40 Neurons|99.3142 %|21473.0534|1013285921.8239|31832.1523|99.3254 %|
-|Decision Tree|Baseline|98.7776 %|22497.1309|1806197855.0123|42499.3865|98.7780 %|
-|Decision Tree|All features + RandomizedSearchCV:{'min_samples_split': 6, 'min_samples_leaf': 6}|98.9881 %|23113.4753|1495079820.6304|38666.2620|98.9881 %|
-|Linear Regression|Baseline|93.4472 %|69515.8128|9682059380.4426|98397.4562|93.4490 %|
-|Linear Regression|Dropping 2 features |93.4513 %|69477.6024|9676046249.8131|98366.8961|93.4530 %|
-|Ridge Regression|Baseline|93.4394 %|69557.6932|9693635442.7628|98456.2616|93.4414 %|
-|Ridge Regression|Dropping 2 features + Regularization II (Alpha =0.00018)  |93.4576 %|69427.9988|9666812279.1121|98319.9485|93.4594 %|
-|Lasso Regression|Baseline|93.4398 %|69554.3493|9693079224.7295|98453.4368|93.4418 %|
-|Lasso Regression|Dropping 2 features + Regularization I (Alpha =10)  |93.4446 %|69511.4134|9685988690.4620|98417.4207|93.4466 %|
+|Models| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Dummy Regression|0 %|0 %|301148.2119|376306.4570|0 %|
+|Linear Regression |87.0594 %|86.9199 %|96522.4628|135367.8835|87.0805 %|
+|Tuned Ridge|87.0763 %|86.9369 %|96489.2726|135279.9288|87.0970 %|
+|Tuned Lasso|87.0595 %|86.9200 %|96520.8254|135367.3967|87.0806 %|
+|Tuned Decision Tree|87.4464 %|87.3110 %|92510.0434|133328.6903|87.4864 %|
+|Tuned ANN|91.0938 %|90.9978 %|76641.2342|112301.3342|91.1308 %|
+|Tuned Random Forests|92.1982 %|92.1141 %|67886.0897|105107.8895|92.2170 %|
+|Gradient Boosting   |92.4799 %|92.3988 %|66910.7055|103193.3274|92.4863 %|
+|Tuned XGBoost   |92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
+|Tuned LightGBM|92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
+|Baseline Stacking|92.4033 %|92.3214 %|68855.7449|103717.3961|92.4168 %|
+|Tuned Stacking  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
 
 ## 1. XGBoost Regression Tuning Summary:
 
