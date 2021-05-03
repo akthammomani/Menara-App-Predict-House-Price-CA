@@ -21,12 +21,12 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Light GBM
  * Artificial Neural networks (ANN).
  * Stacking:
-   1. Base Models:**
+   * Base Models:
      * Random Forests
      * GB
      * XGBoost
      * Light GBM
-   2. Meta Model:
+   * Meta Model:
      * Ridge
 
 ## Regression Models Performance Summary:
