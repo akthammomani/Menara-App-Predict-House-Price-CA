@@ -10,15 +10,17 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Finally, evaluate these Models.
 
 **Regression Models:**
- * Linear Regression (Baseline Model).
+ * Dummy Regression (Baseline Model)
+ * Linear Regression
  * Ridge Regression (L2 Regularization)
  * Lasso Regression (L1 Regularization)
  * Decision Trees
  * Random Forests
  * GB
  * XGBoost
+ * Light GBM
+ * Artificial Neural networks (ANN).
  * Stacking
- * Neural networks.
 
 ## Regression Models Performance Summary:
 
