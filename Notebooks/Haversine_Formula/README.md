@@ -7,15 +7,7 @@
 
 **The Haversine formula** is perhaps the first equation to consider when understanding how to calculate distances on a sphere. The word "Haversine" comes from the function:
 
-$haversine(θ) = sin²(θ/2)$
-
-The following equation where φ is latitude, λ is longitude, R is earth’s radius (mean radius = 6,371km) is how we translate the above formula to include latitude and longitude coordinates. Note that angles need to be in radians to pass to trig functions:
-
-$a = sin²(φB — φA/2) + cos φA * cos φB * sin²(λB — λA/2)$
-
-$c = 2 * atan2( √a, √(1−a) )$
-
-$d = R ⋅ c$
+![haversine](https://user-images.githubusercontent.com/67468718/116973847-fe243600-ac71-11eb-9ad5-b7bb216deb41.JPG)
 
 ## 2. Objective
 
