@@ -180,7 +180,24 @@ As we can see below, We managed to improve our Gradient Boosting Regression Mode
    * Increasing the number of trees in random forests does not cause overfitting.
    * The number of trees in gradient boosting decision trees is very critical in terms of overfitting. Adding too many trees will cause overfitting so it is important to stop adding trees at some point.
 
-## 8. Stacking Regression Tuning Summary:
+## 8. Light GBM Regression Tuning Summary:
+
+As we can see below, We managed to improve our LightGBM Regression Model by:
+ * keeping only the high important features: and
+ * Hyperparameters Tuning using RandomizedSearchCV to determine best:
+   * {'reg_lambda': 0.4, 'reg_alpha': 0.6, 'n_estimators': 1700, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth':15, 'num_leaves'= 32767} when considering all features.
+   * {'reg_lambda': 0.4, 'reg_alpha': 0.8, 'n_estimators': 1000, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth':15, 'num_leaves'= 32767} when considering only the high important features.
+ * Variance Score has improved from 91.9935 % (LightGBM - baseline) to 92.6406 %.
+ 
+|Features Selection| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Baseline (all features)|91.9853 %|91.8384 %|70644.4765|106532.6116|91.9935 %|
+|Baseline (Keeping high important Features)    |92.2960 %|92.2129 %|70316.6721|104447.5214|92.3067 %|
+|All Features + RandomizedSearchCV|92.5526 %|92.4160 %|66041.6874|102693.4526|92.5621 %|
+|High Important Features + RandomizedSearchCV    |92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
+
+
+## 9. Stacking Regression Tuning Summary:
 
 As we can see below, We managed to improve our Stacking Regression Model by **stacking**:
  * Random Forests.
