@@ -19,5 +19,5 @@ $d = R ⋅ c$
 
 ## 2. Objective
 
-**The Haversine formula** will help us to find all schools within 3 miles of every house and then we can take calculate the average GreatSchool Ratings for all schools within 3 miles of every house in our database.
+**The Haversine formula** will help us to find all schools within 3 miles of every house and then we can calculate the average GreatSchool Ratings for all schools within 3 miles of every house in our database.
 
