@@ -44,7 +44,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
 |Tuned XGBoost   |92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
 |Tuned LightGBM|92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
 |Baseline Stacking|92.4033 %|92.3214 %|68855.7449|103717.3961|92.4168 %|
-|Tuned Stacking  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
+|**Tuned Stacking - Winner**  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
 
 ## 1. Dummy Regression and Linear regression Summary:
 
