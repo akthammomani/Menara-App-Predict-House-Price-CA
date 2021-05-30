@@ -1,6 +1,6 @@
 ![GreatSchools](https://user-images.githubusercontent.com/67468718/102781273-44749a80-434c-11eb-946b-da7503def432.jpg)
 
-# ✰ Home Buyers Forego Garages for School Districts
+# Home Buyers Forego Garages for School Districts
    * 78 % of buyers in their preferred school district gave up home features to get there
    * Most common compromises include a garage, large backyard, and updated kitchen
    * Nearly three-quarters of respondents say good schools were important to their search
@@ -18,7 +18,7 @@ The desire for particular schools varied significantly by life stage and age. 91
 ***“Many families come to GreatSchools for the first time because they are preparing to move to a new neighborhood or community,” said Bill Jackson, Founder and CEO of GreatSchools. “Parents are looking for a neighborhood with great school options for their kids, and partnering with Zillow helps GreatSchools bring families more and better info about the whole neighborhood, including nearby homes.”***
 
 
-## ✰ For Predicting House Prices Project, We'll be using The GreatSchools API to return all the schools information in the 49 selected cities in North California:
+## For Predicting House Prices Project, We'll be using The GreatSchools API to return all the schools information in the 49 selected cities in North California:
    * After reaching out to ***GreatSchools.Org***, Thankfully they helped me to set up a ***FREE API trial key*** for the period of this poject.
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below:    
@@ -27,7 +27,7 @@ The desire for particular schools varied significantly by life stage and age. 91
   <img width="500" height="700" src="https://user-images.githubusercontent.com/67468718/102781300-50605c80-434c-11eb-8665-ba977e8b3be0.jpg">
 </p>
    
-## ✰ After evaluating the variation in GreatSchool Rating among all schools in the selected 47 cities in North California : below box plots show that the GreatSchool Rating is distributed very well among the selected cities in North California:
+## After evaluating the variation in GreatSchool Rating among all schools in the selected 47 cities in North California : below box plots show that the GreatSchool Rating is distributed very well among the selected cities in North California:
 
 <p align="center">
   <img width="800" height="300" src="https://user-images.githubusercontent.com/67468718/102782406-25770800-434e-11eb-9bfa-c6987d7581cc.jpg">
