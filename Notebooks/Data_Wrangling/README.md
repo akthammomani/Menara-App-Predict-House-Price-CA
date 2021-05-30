@@ -1,4 +1,4 @@
-# ✰ Data Wrangling: Predicting House prices North California
+# Data Wrangling: Predicting House prices North California
 
 ![Data_Wrangling_hh](https://user-images.githubusercontent.com/67468718/104858187-6ec96180-58d2-11eb-8e6e-f110ef5193fb.JPG)
 
