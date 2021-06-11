@@ -23,7 +23,9 @@ For free error **NeuralProphet** installation, please create a fresh conda envir
 There is no pip or conda package for this library at this time. You can install it by cloning the repository and installing it running pip install .However, if you are going to use the package in a Jupyter Notebook environment, you should install their live version pip install .[live]. This will provide more features such as a live plot of train and validation loss using plot_live_loss().
 
 git clone https://github.com/ourownstory/neural_prophet 
+
 cd neural_prophet 
+
 pip install .[live]
 
 
