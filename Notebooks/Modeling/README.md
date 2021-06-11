@@ -20,7 +20,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * XGBoost
  * Light GBM
  * Artificial Neural networks (ANN).
- * Stacking:
+ * Stacking (Winner Model):
    * Base Models:
      * Random Forests
      * GB
