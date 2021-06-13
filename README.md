@@ -21,6 +21,15 @@ At **MENARA**, since the begining, we made our mind to be unique in approaching 
   * Applied state of the art techniques in feature engineering: integrated Unsupervised Machine Learning - Clustering using K-Means and used Haversine Formula with Python to create crucial features in order to improve our final ML Model.
   * Selected Stacking Regressor as our final Model because it managed to make predictions that have better performance than any single models we trained. so in Stacking, we used a meta-learning algorithm (Ridge) to learn how to best combine the predictions from Four ML Algorithms (Random Forest, GB, XGBoost and LightGBM).
 
+|Models| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
+|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
+|Tuned Random Forests|92.1982 %|92.1141 %|67886.0897|105107.8895|92.2170 %|
+|Tuned Gradient Boosting   |92.4799 %|92.3988 %|66910.7055|103193.3274|92.4863 %|
+|Tuned XGBoost   |92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
+|Tuned LightGBM|92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
+|Baseline Stacking|92.4033 %|92.3214 %|68855.7449|103717.3961|92.4168 %|
+|Tuned Stacking  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
+
 
 ## **Median House Price Forecast Per Zip Code**
 
