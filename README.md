@@ -1,4 +1,4 @@
-# Menara App: 
+# Menara App
 First and Only App for House Price Estimation, Forecast and GreatSchools Search
 
 ![SF_painted_ladies](https://user-images.githubusercontent.com/67468718/103456623-c483f400-4cac-11eb-8cdb-d508d23d80ba.jpg)
