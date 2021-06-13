@@ -27,3 +27,13 @@ At **MENARA**, since the begining, we made our mind to be unique in approaching 
 If you're interested in buying or selling a house in 2021/2022, then, **MENARA** is offering a golden opportunity to give you a sneak peek into the future; Up to 14 Months of house price forecast per zipcode by using a new model called **Neural Prophet**. This model is a Neural Network based Time-Series Model, built on top of PyTorch and is heavily inspired by Facebook Prophet and AR-Net libraries **([Neural Prophet Site](http://neuralprophet.com/))**.
 
 For the Data used in **Neural Prophet**, we're utilizing multiple reliable sources **(e.g., [redfin](https://www.redfin.com/news/data-center/) and [realtor](https://www.realtor.com/research/data/))**, because they have direct access to data from local multiple listing services, as well as insight from their real estate agents across the country.
+
+## **GreatSchools Search**
+
+Most buyers understand that they may not be able to find a home that covers every single item on their wish list, but new survey data from **[realtor](http://wwww.realtor.com)** shows that school districts are an 
+area where many buyers aren’t willing to compromise. For many buyers and not just buyers with children, “location, location, location,” means “schools, schools, schools.”
+
+Good schools desire by **78%** of buyers makes **[GreatSchools](https://www.greatschools.org/)** the trusted source of schools rating for many parents and the partner of choice for so many leading real estate websites (e.g., redfin, zillow, realtor) simply because **GreatSchools** are the nation’s leading source of school performance information and offer the most comprehensive set of school data available. Last year,  **GreatSchools** had more than 55 million unique visitors, including over half of American families with school-age children.
+
+Special Thanks to **GreatSchools**, in particular Lindsay Zavala - Partnership Manager for providing a **free API trial key**. REST API access was essential to request GreatSchools Rating of all schools in specific zipcodes/Cities in North California.
+
