@@ -54,5 +54,5 @@ Good schools desire by **78%** of buyers makes **[GreatSchools](https://www.grea
 
 Special Thanks to **GreatSchools**, in particular Lindsay Zavala - Partnership Manager for providing a **free API trial key**. REST API access was essential to request GreatSchools Rating of all schools in specific zipcodes/Cities in North California.
 
-![school_example](https://user-images.githubusercontent.com/67468718/121798467-63593880-cbdb-11eb-847c-67853c7094fc.JPG)
+![school_example](https://user-images.githubusercontent.com/67468718/121798875-9f8d9880-cbdd-11eb-8af8-a52b07639181.JPG)
 
