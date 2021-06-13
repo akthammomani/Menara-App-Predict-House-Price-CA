@@ -20,3 +20,10 @@ At **MENARA**, since the begining, we made our mind to be unique in approaching 
   * Built our dataset from scratch, utilizing multiple reliable sources (e.g., [redfin](https://www.redfin.com/news/data-center/), [realtor](https://www.realtor.com/research/data/), [GreatSchools API](https://www.greatschools.org/),.. etc). For more details, check [Data Wrangling](https://github.com/akthammomani/Capstone-Project-2-Menara-App-Predicting-House-Prices-CA/tree/main/Notebooks/Data_Wrangling).
   * Applied state of the art techniques in feature engineering: integrated Unsupervised Machine Learning - Clustering using K-Means and used Haversine Formula with Python to create crucial features in order to improve our final ML Model.
   * Selected Stacking Regressor as our final Model because it managed to make predictions that have better performance than any single models we trained. so in Stacking, we used a meta-learning algorithm (Ridge) to learn how to best combine the predictions from Four ML Algorithms (Random Forest, GB, XGBoost and LightGBM).
+
+
+## **Median House Price Forecast Per Zip Code**
+
+If you're interested in buying or selling a house in 2021/2022, then, **MENARA** is offering a golden opportunity to give you a sneak peek into the future; Up to 14 Months of house price forecast per zipcode by using a new model called **Neural Prophet**. This model is a Neural Network based Time-Series Model, built on top of PyTorch and is heavily inspired by Facebook Prophet and AR-Net libraries **([Neural Prophet Site](http://neuralprophet.com/))**.
+
+For the Data used in **Neural Prophet**, we're utilizing multiple reliable sources **(e.g., [redfin](https://www.redfin.com/news/data-center/) and [realtor](https://www.realtor.com/research/data/))**, because they have direct access to data from local multiple listing services, as well as insight from their real estate agents across the country.
