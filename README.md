@@ -43,6 +43,8 @@ If you're interested in buying or selling a house in 2021/2022, then, **MENARA**
 
 For the Data used in **Neural Prophet**, we're utilizing multiple reliable sources **(e.g., [redfin](https://www.redfin.com/news/data-center/) and [realtor](https://www.realtor.com/research/data/))**, because they have direct access to data from local multiple listing services, as well as insight from their real estate agents across the country.
 
+![forecast_example](https://user-images.githubusercontent.com/67468718/121798466-62c0a200-cbdb-11eb-88cd-acc097b86526.JPG)
+
 ## **GreatSchools Search**
 
 Most buyers understand that they may not be able to find a home that covers every single item on their wish list, but new survey data from **[realtor](http://wwww.realtor.com)** shows that school districts are an 
@@ -51,4 +53,6 @@ area where many buyers aren’t willing to compromise. For many buyers and not j
 Good schools desire by **78%** of buyers makes **[GreatSchools](https://www.greatschools.org/)** the trusted source of schools rating for many parents and the partner of choice for so many leading real estate websites (e.g., redfin, zillow, realtor) simply because **GreatSchools** are the nation’s leading source of school performance information and offer the most comprehensive set of school data available. Last year,  **GreatSchools** had more than 55 million unique visitors, including over half of American families with school-age children.
 
 Special Thanks to **GreatSchools**, in particular Lindsay Zavala - Partnership Manager for providing a **free API trial key**. REST API access was essential to request GreatSchools Rating of all schools in specific zipcodes/Cities in North California.
+
+![school_example](https://user-images.githubusercontent.com/67468718/121798467-63593880-cbdb-11eb-847c-67853c7094fc.JPG)
 
