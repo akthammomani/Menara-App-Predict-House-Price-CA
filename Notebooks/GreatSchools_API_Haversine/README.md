@@ -19,7 +19,7 @@ The desire for particular schools varied significantly by life stage and age. 91
 
 
 ## For Predicting House Prices Project, We'll be using The GreatSchools API to return all the schools information in the 49 selected cities in North California:
-   * After reaching out to ***GreatSchools.Org***, Thankfully they helped me to set up a ***FREE API trial key*** for the period of this poject.
+   * Special Thanks to **GreatSchools**, in particular Lindsay Zavala - Partnership Manager for providing a **free API trial key**.
    * The GreatSchools API is a REST-based web service.
    * For this project, we'll use the API to return all ***public*** School information per city as shown below:    
   
