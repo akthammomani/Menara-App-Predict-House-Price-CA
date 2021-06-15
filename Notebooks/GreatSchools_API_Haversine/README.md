@@ -5,7 +5,7 @@
    * Most common compromises include a garage, large backyard, and updated kitchen
    * Nearly three-quarters of respondents say good schools were important to their search
  
-Today’s seller’s market is forcing buyers to make compromises, but new survey data (Source: http://wwww.realtor.com) shows buyers remain steadfast in their desire for their preferred good school districts. In fact, they are willing to give up two of their most desired home features — a garage and updated kitchen — to get into the right school district they want.
+Today’s seller’s market is forcing buyers to make compromises, but new survey data [realtor](http://wwww.realtor.com) shows buyers remain steadfast in their desire for their preferred good school districts. In fact, they are willing to give up two of their most desired home features — a garage and updated kitchen — to get into the right school district they want.
 
 Most buyers understand that they may not be able to find a home that covers every single item on their wish list, but the survey shows that school districts are an area where many buyers aren’t willing to compromise. For many buyers and not just buyers with children, “location, location, location,” means “schools, schools, schools.”
 
