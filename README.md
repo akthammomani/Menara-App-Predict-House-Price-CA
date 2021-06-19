@@ -6,7 +6,7 @@ First and Only App for House Price Estimation, Forecast and GreatSchools Search
 Whether you want to buy, sell, refinance, or even remodel a home, **MENARA** offers many resources, estimates and forecasts to help you make the most informed decision. 
 With a user-friendly interface, and offering many resources for buyers, sellers, and landlords alike. **MENARA** offers:
 
-  * The lowest 8.5% margin off error for off- market homes in North California ***(Competitive to the most known Home Estimate Sites e.g., [Redfin](https://www.redfin.com/redfin-estimate))*** by using the most sophisticated Machine learning Alogorithms.
+  * The lowest 8.5% margin off error for off- market homes in North California ***(Competitive to the most known Home Estimate Sites e.g., [Redfin](https://www.redfin.com/redfin-estimate))*** by using the most sophisticated Machine learning Algorithms.
 
   * A golden opportunity to give you a sneak peek into the future; Up to 14 Months of house price forecast per zipcode 
     by using a new model called **Neural Prophet**.
