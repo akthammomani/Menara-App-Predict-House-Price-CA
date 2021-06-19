@@ -12,7 +12,18 @@ With a user-friendly interface, and offering many resources for buyers, sellers,
     by using a new model called **Neural Prophet**.
     
   * A unique access to **[GreatSchools](https://www.greatschools.org/)**; the most trusted source of schools rating for many buyers and not just buyers with children because at **MENARA**  we KNOW that “location, location, location,” means “schools, schools, schools."
- 
+
+## **Menara Web App Deployment**
+
+  * Streamlit Sharing: 
+
+    https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py
+  
+  * AWS EC2: 
+  
+    http://3.135.235.130:8501/
+    
+  
 ## **House Price Estimation**
 
 At **MENARA**, since the begining, we made our mind to be unique in approaching this typical supervised machine learning problem, so here are the main reasons why you should trust our app: 
