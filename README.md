@@ -15,13 +15,13 @@ With a user-friendly interface, and offering many resources for buyers, sellers,
 
 ## **Menara Web App Deployment**
 
-  * Streamlit Sharing: 
-
-    https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py
-  
   * AWS EC2: 
   
     http://3.135.235.130:8501/
+    
+  * Streamlit Sharing: 
+
+    https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py
     
   
 ## **House Price Estimation**
