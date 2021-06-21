@@ -34,7 +34,7 @@ At **MENARA**, since the begining, we made our mind to be unique in approaching 
   * Applied state of the art techniques in feature engineering: integrated Unsupervised Machine Learning - Clustering using K-Means and used Haversine Formula with Python to create crucial features in order to improve our final ML Model. For more details, check [pre_proccessing and Training Data](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/tree/main/Notebooks/Pre_processing_Training_Data).
   * Selected Stacking Regressor as our final Model because it managed to make predictions that have better performance than any single models we trained. so in Stacking, we used a meta-learning algorithm (Ridge) to learn how to best combine the predictions from Four ML Algorithms (Random Forest, GB, XGBoost and LightGBM).
 
-![ML Models Summary](https://user-images.githubusercontent.com/67468718/122728044-91b6c380-d22c-11eb-9c1d-2b1727b2bb0e.JPG)
+![ML Models Summary](https://user-images.githubusercontent.com/67468718/122728305-d8a4b900-d22c-11eb-9e3f-781272140586.JPG)
 
 
 
