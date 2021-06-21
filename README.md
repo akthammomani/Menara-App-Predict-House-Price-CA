@@ -15,6 +15,8 @@ With a user-friendly interface, and offering many resources for buyers, sellers,
 
 ## **Menara Web App Deployment**
 
+https://user-images.githubusercontent.com/67468718/122706472-dd597500-d20c-11eb-8834-3780f7cadf05.MP4
+
   * AWS EC2: 
   
     http://3.135.235.130:8501/
