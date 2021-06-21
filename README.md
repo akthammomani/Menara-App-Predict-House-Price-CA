@@ -34,20 +34,8 @@ At **MENARA**, since the begining, we made our mind to be unique in approaching 
   * Applied state of the art techniques in feature engineering: integrated Unsupervised Machine Learning - Clustering using K-Means and used Haversine Formula with Python to create crucial features in order to improve our final ML Model. For more details, check [pre_proccessing and Training Data](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/tree/main/Notebooks/Pre_processing_Training_Data).
   * Selected Stacking Regressor as our final Model because it managed to make predictions that have better performance than any single models we trained. so in Stacking, we used a meta-learning algorithm (Ridge) to learn how to best combine the predictions from Four ML Algorithms (Random Forest, GB, XGBoost and LightGBM).
 
-|No.|Models| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
-|:----:|:----------------------|:-------:|:-------:|:----:|:----:|:----:|
-|1|[Dummy Regression](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Dummy_Linear_Regression.ipynb)|0 %|0 %|301148.2119|376306.4570|0 %|
-|2|[Linear Regression](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Dummy_Linear_Regression.ipynb) |87.0594 %|86.9199 %|96522.4628|135367.8835|87.0805 %|
-|3|[Tuned Ridge](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Ridge_Regression_(L2_Regularization).ipynb)|87.0763 %|86.9369 %|96489.2726|135279.9288|87.0970 %|
-|4|[Tuned Lasso](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Lasso_Regression_(L1_Regularization).ipynb)|87.0595 %|86.9200 %|96520.8254|135367.3967|87.0806 %|
-|5|[Tuned Decision Tree](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Decision_Tree_Regression.ipynb)|87.4464 %|87.3110 %|92510.0434|133328.6903|87.4864 %|
-|6|[Tuned ANN](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Neural_Networks_Keras_Tensorflow.ipynb)|91.0938 %|90.9978 %|76641.2342|112301.3342|91.1308 %|
-|7|[Tuned Random Forests](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Random_Forest_Regression_V1.ipynb)|92.1982 %|92.1141 %|67886.0897|105107.8895|92.2170 %|
-|8|[Gradient Boosting](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Gradient_Boosting_Regression.ipynb)   |92.4799 %|92.3988 %|66910.7055|103193.3274|92.4863 %|
-|9|[Tuned XGBoost](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_XGBoost_Regression.ipynb)   |92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
-|10|[Tuned LightGBM](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_LightGBM_Regression.ipynb)|92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
-|11|[Baseline Stacking](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Stacking_Regression_Final_APP.ipynb)|92.4033 %|92.3214 %|68855.7449|103717.3961|92.4168 %|
-|12|[**Tuned Stacking - Winner** ](https://github.com/akthammomani/Menara-App-Predict-House-Price-CA/blob/main/Notebooks/Modeling/Modeling_Stacking_Regression_Final_APP.ipynb)  |92.7615 %|92.6835 %|65381.7572|101242.5730|92.7760 %|
+![ML Models Summary](https://user-images.githubusercontent.com/67468718/122728044-91b6c380-d22c-11eb-9c1d-2b1727b2bb0e.JPG)
+
 
 
 ## **Median House Price Forecast Per Zip Code**
