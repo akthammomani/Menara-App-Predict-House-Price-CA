@@ -3,6 +3,7 @@ First and Only App for House Price Estimation, Forecast and GreatSchools Search
 
 ![house_8](https://user-images.githubusercontent.com/67468718/121798164-9ef30300-cbd9-11eb-822f-c4a996e184b7.JPG)
 
+## **Introduction**
 Whether you want to buy, sell, refinance, or even remodel a home, **MENARA** offers many resources, estimates and forecasts to help you make the most informed decision. 
 With a user-friendly interface, and offering many resources for buyers, sellers, and landlords alike. **MENARA** offers:
 
