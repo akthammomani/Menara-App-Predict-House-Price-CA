@@ -1,4 +1,4 @@
-# Menara App
+# Menara App [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py/)
 First and Only App for House Price Estimation, Forecast and GreatSchools Search
 
 ![house_8](https://user-images.githubusercontent.com/67468718/121798164-9ef30300-cbd9-11eb-822f-c4a996e184b7.JPG)
