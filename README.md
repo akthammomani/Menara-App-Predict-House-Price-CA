@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/67468718/122706472-dd597500-d20c-11eb-
     
   * Streamlit Sharing: 
 
-    https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py   
+    [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_red.svg)](https://share.streamlit.io/akthammomani/streamlit/main/Menara_App.py/)
   
 ## **House Price Estimation**
 
