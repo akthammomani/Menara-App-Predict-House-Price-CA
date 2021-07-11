@@ -132,7 +132,7 @@ As we can see below, We managed to improve our Random Forests Regression Model b
 |All Features + RandomizedSearchCV {'n_estimators': 300, 'max_features': 'sqrt', 'max_depth': 20}|91.9673 %|91.8201 %|68595.6250|106652.1579|91.9863 %|
 |High Important Features + RandomizedSearchCV {'n_estimators': 600, 'min_samples_split': 6, 'max_features': 'log2'}	   |92.1982 %|92.1141 %|67886.0897|105107.8895|92.2170 %|
 
- ## 6. XGBoost Regression Tuning Summary:
+ ## 7. XGBoost Regression Tuning Summary:
 
 As we can see below, We managed to improve our XGBoost Regression Model by:
  * keeping only the high important features: and
@@ -148,7 +148,7 @@ As we can see below, We managed to improve our XGBoost Regression Model by:
 |All Features + RandomizedSearchCV {'n_estimators': 900, 'min_child_weight': 11, 'max_depth': 10, 'learning_rate': 0.01, 'gamma': 0.3, 'colsample_bytree': 0.4}|92.5617 %|92.3162 %|66304.8201|102630.7106|92.5737 %|
 |High Important Features + RandomizedSearchCV {'n_estimators': 600, 'min_child_weight': 12, 'max_depth': 16, 'learning_rate': 0.01, 'gamma': 0.3, 'colsample_bytree': 0.6}|92.5777 %|92.4977 %|67043.7283|102520.0032|92.5786 %|
 
-## 7. Gradient Boosting Regression Tuning Summary:
+## 8. Gradient Boosting Regression Tuning Summary:
 
 As we can see below, We managed to improve our Gradient Boosting Regression Model by:
  * keeping only the most important features: and
@@ -180,7 +180,7 @@ As we can see below, We managed to improve our Gradient Boosting Regression Mode
    * Increasing the number of trees in random forests does not cause overfitting.
    * The number of trees in gradient boosting decision trees is very critical in terms of overfitting. Adding too many trees will cause overfitting so it is important to stop adding trees at some point.
 
-## 8. Light GBM Regression Tuning Summary:
+## 9. Light GBM Regression Tuning Summary:
 
 As we can see below, We managed to improve our LightGBM Regression Model by:
  * keeping only the high important features: and
@@ -197,7 +197,7 @@ As we can see below, We managed to improve our LightGBM Regression Model by:
 |High Important Features + RandomizedSearchCV    |92.6304 %|92.5510 %|66235.3892|102155.1713|92.6406 %|
 
 
-## 9. Stacking Regression Tuning Summary:
+## 10. Stacking Regression Tuning Summary:
 
 As we can see below, We managed to improve our Stacking Regression Model by **stacking**:
  * Random Forests.
