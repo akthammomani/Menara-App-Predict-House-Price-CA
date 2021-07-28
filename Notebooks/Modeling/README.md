@@ -8,7 +8,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
  * Training multiple Regression algorithms.
  * Apply hyperparameters tuning where applicable to ensure every algorithm will result in best prediction possible.
  * Finally, evaluate these Models.
-```
+
 **Regression Models:**
  * Dummy Regression (Baseline Model)
  * Linear Regression
@@ -28,7 +28,7 @@ Here comes the really fun step: modeling! For this step, we'll be:
      * Light GBM
    * Meta Model:
      * Ridge
-```
+
 ## Regression Models Performance Summary:
 
 |No.|Models| R^2 Score|Adjusted R^2 Score  |  MAE  | RMSE|Variance Score|
